@@ -1,0 +1,84 @@
+{
+  "id": "honors",
+  "title": "Honors & Awards",
+  "honors": [
+    {
+      "type": "trophy",
+      "description": "German Champion in Ringtennis, Men's Alternating Doubles",
+      "year": 2016
+    },
+    {
+      "type": "certificate",
+      "description": "CHI '15 Best Paper Honorable Mention Award",
+      "organization": "ACM SIGCHI",
+      "year": 2015
+    },
+    {
+      "type": "trophy",
+      "description": "German Champion in Ringtennis, Men's Doubles",
+      "year": 2014
+    },
+    {
+      "type": "trophy",
+      "description": "World Team Champion in Ringtennis",
+      "location": "Vereeniging, South Africa",
+      "year": 2014
+    },
+    {
+      "type": "certificate",
+      "description": "Industrial Ph.D. Scholarship",
+      "organization": "Sächsische Aufbaubank (SAB)",
+      "year": 2013
+    },
+        {
+      "type": "certificate",
+      "description": "Excellence Scholarship",
+      "organization": "ETH Zurich",
+      "year": 2011
+    },
+    {
+      "type": "trophy",
+      "description": "German Champion in Ringtennis, Men's Alternating Doubles",
+      "year": 2011
+    },
+    {
+      "type": "trophy",
+      "description": "German Team Champion in Ringtennis",
+      "year": 2011
+    },
+    {
+      "type": "certificate",
+      "description": "Dean's List (Top 3%)",
+      "organization": "RWTH Aachen University",
+      "year": 2010
+    },
+    {
+      "type": "certificate",
+      "description": "Dean's List (Top 3%)",
+      "organization": "RWTH Aachen University",
+      "year": 2009
+    },
+    {
+      "type": "trophy",
+      "description": "German Champion in Ringtennis, Men's Singles",
+      "year": 2008
+    },
+    {
+      "type": "certificate",
+      "description": "Carl Schuhmann Medal",
+      "organization": "Deutscher Turner-Bund",
+      "year": 2007
+    },
+    {
+      "type": "trophy",
+      "description": "German Champion in Ringtennis, Mixed Doubles",
+      "year": 2007
+    },
+    {
+      "type": "trophy",
+      "description": "World Team Champion in Ringtennis",
+      "location": "Chennai, India",
+      "year": 2006
+    }
+  ]
+}

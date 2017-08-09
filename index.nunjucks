@@ -7,10 +7,9 @@
   </head>
   <body>
     <div class="container">
-      
-      Hello, Julia!<br /><br />
-
-      
+      {% for section in content %}
+      {{ section.html | safe }}
+      {% endfor %}
       <a class="brtlyst-link" href="#">This is a link</a>
     </div>
   </body>

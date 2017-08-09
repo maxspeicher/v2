@@ -1,0 +1,209 @@
+{
+  "id": "publications",
+  "title": "Publications",
+  "publications": [
+    {
+      "type": "inproceedings",
+      "authors": ["Maximilian Speicher", "Andreas Both", "Martin Gaedke"],
+      "title": "REFOCUS: Current and Future Search Interface Requirements for German-speaking Users",
+      "booktitle": "Proc. ICWI",
+      "year": 2016,
+      "link": "http://iadisportal.org/digital-library/refocus-current-future-search-interface-requirements-for-german-speaking-users",
+      "pdf": "https://www.researchgate.net/publication/309529749"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Daniela Antkowiak", "Christian Kohlschein", "Roksaneh Krooß", "Maximilian Speicher", "Tobias Meisen", "Sabina Jeschke", "Cornelius Werner"],
+      "title": "Language Therapy of Aphasia Supported by Augmented Reality Applications",
+      "booktitle": "Proc. IEEE Healthcom",
+      "coreRating": "C",
+      "year": 2016,
+      "link": "http://ieeexplore.ieee.org/abstract/document/7749511/",
+      "pdf": "https://www.researchgate.net/publication/309516479"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Maximilian Speicher", "Kristina Tenhaft", "Simon Heinen", "Harry Handorf"],
+      "title": "Enabling Industry 4.0 with holobuilder",
+      "booktitle": "Proc. INFORMATIK",
+      "year": 2015,
+      "link": "http://subs.emis.de/LNI/Proceedings/Proceedings246/article9.html",
+      "pdf": "https://www.researchgate.net/publication/282293186"
+    },
+    {
+      "type": "article",
+      "authors": ["Maximilian Speicher", "Sebastian Nuck", "Lars Wesemann", "Andreas Both", "Martin Gaedke"],
+      "title": "From TMR to Turtle: Predicting Result Relevance from Mouse Cursor Interactions in Web Search",
+      "booktitle": "Journal of Web Engineering",
+      "volume": 14,
+      "number": "5&6",
+      "pages": "386&ndash;413",
+      "year": 2015,
+      "link": "http://www.rintonpress.com/journals/jweonline.html#v14n56",
+      "pdf": "http://www.rintonpress.com/xjwe14/jwe-14-56/386-413.pdf"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Maximilian Speicher", "Andreas Both", "Martin Gaedke"],
+      "title": "<span style='font-variant:small-caps'>Inuit:</span> The Interface Usability Instrument",
+      "booktitle": "Proc. DUXU",
+      "year": 2015,
+      "link": "http://dx.doi.org/10.1007/978-3-319-20886-2_25",
+      "pdf": "https://www.researchgate.net/publication/282441105"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Maximilian Speicher", "Andreas Both", "Martin Gaedke"],
+      "title": "S.O.S.: Does Your Search Engine Results Page (SERP) Need Help?",
+      "booktitle": "Proc. ACM CHI",
+      "year": 2015,
+      "acceptanceRate": "23%",
+      "coreRating": "A*",
+      "link": "http://dl.acm.org/citation.cfm?id=2702568",
+      "pdf": "https://www.researchgate.net/publication/282441131"
+    },
+    {
+      "type": "techreport",
+      "authors": ["Maximilian Speicher"],
+      "title": "What is Usability? A Characterization based on ISO 9241-11 and ISO/IEC 25010",
+      "number": "CSR-15-02",
+      "institution": "Department of Computer Science, Technische Universität Chemnitz",
+      "year": 2015,
+      "link": "https://www.tu-chemnitz.de/informatik/service/ib/2015.php.en",
+      "pdf": "https://www.tu-chemnitz.de/informatik/service/ib/pdf/CSR-15-02.pdf"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Andreas Both", "Axel-Cyrille Ngonga Ngomo", "Ricardo Usbeck", "Denis Lukovnikov", "Christiane Lemke",
+          "Maximilian Speicher"],
+      "title": "A Service-oriented Search Framework for Full Text, Geospatial and Semantic Search",
+      "booktitle": "Proc. ACM SEMANTiCS",
+      "year": 2014,
+      "acceptanceRate": "37%",
+      "link": "http://dl.acm.org/citation.cfm?id=2660517.2660528",
+      "pdf": "http://svn.aksw.org/papers/2014/SEMANTiCS_architecture/public.pdf"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Maximilian Speicher", "Andreas Both", "Martin Gaedke"],
+      "title": "Ensuring Web Interface Quality through Usability-based Split Testing",
+      "booktitle": "Proc. ICWE",
+      "year": 2014,
+      "acceptanceRate": "20%",
+      "coreRating": "B",
+      "link": "http://link.springer.com/chapter/10.1007/978-3-319-08245-5_6",
+      "pdf": "https://www.researchgate.net/publication/271269916"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Maximilian Speicher", "Sebastian Nuck", "Andreas Both", "Martin Gaedke"],
+      "title": "StreamMyRelevance! Prediction of Result Relevance from Real-Time Interactions and its Application to Hotel Search",
+      "booktitle": "Proc. ICWE",
+      "year": 2014,
+      "acceptanceRate": "20%",
+      "coreRating": "B",
+      "link": "http://link.springer.com/chapter/10.1007/978-3-319-08245-5_16",
+      "pdf": "https://www.researchgate.net/publication/263167518"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Maximilian Speicher", "Andreas Both", "Martin Gaedke"],
+      "title": "WaPPU: Usability-based A/B Testing",
+      "booktitle": "Proc. ICWE (Demos)",
+      "year": 2014,
+      "coreRating": "B",
+      "link": "http://link.springer.com/chapter/10.1007/978-3-319-08245-5_47",
+      "pdf": "https://www.researchgate.net/publication/271269917"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Maximilian Speicher"],
+      "title": "Paving the Path to Content-centric and Device-agnostic Web Design",
+      "booktitle": "Proc. ICWE (Posters)",
+      "year": 2014,
+      "coreRating": "B",
+      "link": "http://link.springer.com/chapter/10.1007/978-3-319-08245-5_44",
+      "pdf": "https://www.researchgate.net/publication/282440341"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Maximilian Speicher", "Andreas Both", "Martin Gaedke"],
+      "title": "TellMyRelevance! Predicting the Relevance of Web Search Results from Cursor Interactions",
+      "booktitle": "Proc. ACM CIKM",
+      "year": 2013,
+      "acceptanceRate": "16.9%",
+      "coreRating": "A",
+      "link": "http://dl.acm.org/citation.cfm?id=2505703",
+      "pdf": "https://www.researchgate.net/publication/262312351"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Michael Röder", "Maximilian Speicher", "Ricardo Usbeck"],
+      "title": "Investigating Quality Raters' Performance Using Interface Evaluation Methods",
+      "booktitle": "Proc. INFORMATIK (Posters)",
+      "year": 2013,
+      "link": "http://www.gi.de/service/publikationen/lni/gi-edition-proceedings-2013/gi-edition-lecture-notes-in-informatics-lni-p-220.html",
+      "pdf": "https://www.researchgate.net/publication/256976967"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Maximilian Speicher", "Andreas Both", "Martin Gaedke"],
+      "title": "Towards Metric-based Usability Evaluation of Online Web Interfaces",
+      "booktitle": "Mensch & Computer Workshopband",
+      "year": 2013,
+      "link": "http://dl.mensch-und-computer.de/handle/123456789/3399",
+      "pdf": "https://www.researchgate.net/publication/271269915"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Maximilian Speicher", "Andreas Both", "Martin Gaedke"],
+      "title": "Was that Webpage Pleasant to Use? Predicting Usability Quantitatively from Interactions",
+      "booktitle": "ICWE Workshops",
+      "year": 2013,
+      "coreRating": "C",
+      "link": "http://link.springer.com/chapter/10.1007/978-3-319-04244-2_33",
+      "pdf": "https://www.researchgate.net/publication/249009509"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Michael Nebeling", "Maximilian Speicher", "Moira C. Norrie"],
+      "title": "W3Touch: Metrics-based Web Page Adaptation for Touch",
+      "booktitle": "Proc. ACM CHI",
+      "year": 2013,
+      "acceptanceRate": "20%",
+      "coreRating": "A*",
+      "link": "http://doi.acm.org/10.1145/2470654.2481319",
+      "pdf": "https://globis.ethz.ch/#!/publications/?tags%5B%5D=nebeling&abstract=362"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Michael Nebeling", "Maximilian Speicher", "Moira C. Norrie"],
+      "title": "CrowdAdapt: Enabling Crowdsourced Web Page Adaptation for Individual Viewing Conditions and Preferences",
+      "booktitle": "Proc. ACM EICS",
+      "year": 2013,
+      "acceptanceRate": "23%",
+      "link": "http://doi.acm.org/10.1145/2480296.2480304",
+      "pdf": "https://globis.ethz.ch/#!/publications/?tags%5B%5D=nebeling&abstract=365"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Michael Nebeling", "Maximilian Speicher", "Moira C. Norrie"],
+      "title": "CrowdStudy: General Toolkit for Crowdsourced Evaluation of Web Interfaces",
+      "booktitle": "Proc. ACM EICS",
+      "year": 2013,
+      "acceptanceRate": "23%",
+      "link": "http://doi.acm.org/10.1145/2480296.2480303",
+      "pdf": "https://globis.ethz.ch/#!/publications/?tags%5B%5D=nebeling&abstract=366"
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Michael Nebeling", "Maximilian Speicher", "Michael Grossniklaus", "Moira C. Norrie"],
+      "title": "Crowdsourced Web Site Evaluation with CrowdStudy",
+      "booktitle": "Proc. ICWE (Demos)",
+      "year": 2012,
+      "coreRating": "C",
+      "link": "http://dx.doi.org/10.1007/978-3-642-31753-8_52",
+      "pdf": "https://globis.ethz.ch/#!/publications/?tags%5B%5D=nebeling&abstract=349"
+    }
+  ]
+}
