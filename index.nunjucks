@@ -4,13 +4,22 @@
     <title>MaxSpeicher.github.io</title>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/brtlyst.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
-    <div class="container">
+    <h1>Maximilian Speicher</h1>
+    <section class="intro"></section>
+    <section class="skills">
+      <a class="skills-skill brtlyst-link" href="#" name="design">#design</a>
+      <a class="skills-skill brtlyst-link" href="#" name="leadership">#leadership</a>
+      <a class="skills-skill brtlyst-link" href="#" name="management">#management</a>
+    </section>
+    <section class="container">
       {% for section in content %}
-      {{ section.html | safe }}
+        {{ section.title }}<br /><br />
+        {{ section.html | safe }}
       {% endfor %}
-      <a class="brtlyst-link" href="#">This is a link</a>
-    </div>
+    </section>
   </body>
 </html>

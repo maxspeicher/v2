@@ -6,9 +6,13 @@ const data = require("gulp-data");
 const less = require("gulp-less");
 const nunjucksRender = require("gulp-nunjucks-render");
 
-const CONTENT_FILES = ["test"];
+const CONTENT_FILES = ["cv"];
 
-// de-caching for data files
+/**
+ * @unused
+ * de-caching for data files
+ * from: https://github.com/colynb/gulp-data/issues/17
+ */
 function requireUncached($module) {
     delete require.cache[require.resolve($module)];
     return require($module);
@@ -26,11 +30,12 @@ gulp.task("nunjucks", function() {
   for (var i=0; i<CONTENT_FILES.length; ++i) {
     const rawData = fs.readFileSync("assets/" + CONTENT_FILES[i] + ".json", "utf8");
     const jsonData = JSON.parse(rawData);
+    const template = fs.readFileSync("assets/" + CONTENT_FILES[i] + ".nunjucks", "utf8");
 
     const contentObj = {
       id: jsonData.id,
       title: jsonData.title,
-      html: nunjucks.render( "assets/" + CONTENT_FILES[i] + ".nunjucks", jsonData)
+      html: nunjucks.renderString(template, jsonData)
     };
 
     content.push(contentObj);
@@ -46,7 +51,7 @@ gulp.task("nunjucks", function() {
 
 gulp.task("watch", function() {
   gulp.watch("css/*.less", ["less"]);
-  gulp.watch(["index.nunjucks", "assets/*.json"], ["nunjucks"]);
+  gulp.watch(["index.nunjucks", "assets/*.json", "assets/*.nunjucks"], ["nunjucks"]);
 });
 
 gulp.task("default", ["watch", "less", "nunjucks"]);

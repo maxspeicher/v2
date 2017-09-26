@@ -1,3 +1,10 @@
+.brtlyst-gray {
+  color: gray;
+}
+.brtlyst-highlight {
+  color: DeepPink !important;
+}
 .brtlyst-link {
   color: DeepPink;
+  text-decoration: none;
 }

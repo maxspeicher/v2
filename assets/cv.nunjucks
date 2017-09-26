@@ -1,0 +1,13 @@
+<table border="0">
+  {% for entry in work %}
+    <tr>
+      <td class="nowrap">{{ entry.date | safe }}</td>
+      <td>
+        <span class="brtlyst-gray">{{ entry.company }}:</span> {{entry.title}}<br />
+        {% for tag in entry.tags %}
+          <span class="brtlyst-gray tag tag-{{ tag }} tiny">#{{ tag }}</span>
+        {% endfor %}
+      </td>
+    </tr>
+  {% endfor %}
+</table>
