@@ -1,12 +1,20 @@
-.brtlyst-gray {
-  color: gray;
+@highlight: DeepPink;
+@secondary: gray;
+
+.brtlyst-secondary {
+  color: @secondary;
 }
 
 .brtlyst-highlight {
-  color: DeepPink !important;
+  color: @highlight !important;
 }
 
 .brtlyst-link {
-  color: DeepPink;
+  color: @highlight;
   text-decoration: none;
+}
+
+.brtlyst-thin {
+    font-weight: 200;
+    font-style: normal;
 }

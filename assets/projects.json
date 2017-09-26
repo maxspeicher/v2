@@ -1,61 +1,59 @@
 {
   "id": "projects",
   "title": "Selected Projects",
-  "projects": {
-    "own": [
-      {
-        "name": "Search Interaction Optimization",
-        "link": "/phdthesis",
-        "logo": "/phdthesis/SIO_logo.svg",
-        "tags": ["chi", "human-centered design", "java", "jquery", "mysql", "node.js", "phd", "research", "usability", "web components", "weka"]
-      },
-      {
-        "name": "The U Score",
-        "link": "http://theuscore.maxspeicher.com/",
-        "logo": "/images/the-u-score.svg",
-        "tags": ["bootstrap", "bourbon.io", "es6", "express js", "google analytics", "jade", "jquery", "material design", "node.js", "research", "sass", "usability"]
-      },
-      {
-        "name": "2008",
-        "link": "https://2008.maxspeicher.com/"
-      },
-      {
-        "name": "&lsquo;Good Mood&rsquo;",
-        "link": "/goodmood",
-        "logo": "/images/goodmood.svg",
-        "tags": ["express js", "jade", "jquery", "material design lite", "motivation", "node.js"]
-      }
-    ],
-    "contributions": [
-      {
-        "name": "HoloBuilder",
-        "link": "https://www.holobuilder.com/"
-      },
-      {
-        "name": "W3Touch",
-        "link": "http://dev.globis.ethz.ch/w3touch/",
-        "logo": "/images/w3touch.jpg",
-        "tags": ["chi", "crowdsourcing", "eth zurich", "human-computer interaction", "jquery", "msc", "mysql", "php", "research", "user experience"]
-      },
-      {
-        "name": "CrowdAdapt",
-        "link": "http://dev.globis.ethz.ch/crowdadapt/"
-      },
-      {
-        "name": "CrowdStudy",
-        "link": "http://dev.globis.ethz.ch/crowdstudy/"
-      },
-      {
-        "name": "jQMultiTouch",
-        "link": "https://github.com/globis-ethz/jqmultitouch"
-      },
-      {
-        "name": "XQuery on Android",
-        "link": "https://sites.google.com/site/mxqueryandroid/"
-      },
-      {
-        "name": "BlueKiwi"
-      }
-    ]
-  }
+  "own": [
+    {
+      "name": "Search Interaction Optimization",
+      "link": "/phdthesis",
+      "logo": "/phdthesis/SIO_logo.svg",
+      "tags": ["chi", "human-centered design", "java", "jquery", "mysql", "node.js", "phd", "research", "usability", "web components", "weka"]
+    },
+    {
+      "name": "The U Score",
+      "link": "http://theuscore.maxspeicher.com/",
+      "logo": "/images/the-u-score.svg",
+      "tags": ["bootstrap", "bourbon.io", "es6", "express js", "google analytics", "jade", "jquery", "material design", "node.js", "research", "sass", "usability"]
+    },
+    {
+      "name": "2008",
+      "link": "https://2008.maxspeicher.com/"
+    },
+    {
+      "name": "&lsquo;Good Mood&rsquo;",
+      "link": "/goodmood",
+      "logo": "/images/goodmood.svg",
+      "tags": ["express js", "jade", "jquery", "material design lite", "motivation", "node.js"]
+    }
+  ],
+  "contributions": [
+    {
+      "name": "HoloBuilder",
+      "link": "https://www.holobuilder.com/"
+    },
+    {
+      "name": "W3Touch",
+      "link": "http://dev.globis.ethz.ch/w3touch/",
+      "logo": "/images/w3touch.jpg",
+      "tags": ["chi", "crowdsourcing", "eth zurich", "human-computer interaction", "jquery", "msc", "mysql", "php", "research", "user experience"]
+    },
+    {
+      "name": "CrowdAdapt",
+      "link": "http://dev.globis.ethz.ch/crowdadapt/"
+    },
+    {
+      "name": "CrowdStudy",
+      "link": "http://dev.globis.ethz.ch/crowdstudy/"
+    },
+    {
+      "name": "jQMultiTouch",
+      "link": "https://github.com/globis-ethz/jqmultitouch"
+    },
+    {
+      "name": "XQuery on Android",
+      "link": "https://sites.google.com/site/mxqueryandroid/"
+    },
+    {
+      "name": "BlueKiwi"
+    }
+  ]
 }

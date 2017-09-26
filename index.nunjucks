@@ -2,8 +2,8 @@
 <html>
   <head>
     <title>MaxSpeicher.github.io</title>
-    <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/brtlyst.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
   </head>
@@ -11,14 +11,33 @@
     <h1>Maximilian Speicher</h1>
     <section class="intro"></section>
     <section class="skills">
-      <a class="skills-skill brtlyst-link" href="#" name="design">#design</a>
-      <a class="skills-skill brtlyst-link" href="#" name="leadership">#leadership</a>
-      <a class="skills-skill brtlyst-link" href="#" name="management">#management</a>
+      {% for skill in skills %}
+        <a class="skills-skill brtlyst-link" href="#content" name="{{ skill }}">#{{ skill }}</a>
+      {% endfor %}
+    </section>
+    <section>
+      <a class="arrangement arrangement-category brtlyst-link" href="#">
+        <span class="brtlyst-thin">arrange by</span> category
+      </a>
+      <a class="arrangement arrangement-skill brtlyst-link" href="#">
+        <span class="brtlyst-thin">arrange by</span> skill
+      </a>
+    </section>
+    <a id="content" name="content"></a>
+    <section class="container">
+      {% for title, entries in content %}
+        <h2>{{ title }}</h2>
+        <table border="0">
+          {% for entry in entries %}
+            {{ entry | safe }}
+          {% endfor %}
+        </table>
+      {% endfor %}
     </section>
     <section class="container">
-      {% for section in content %}
-        {{ section.title }}<br /><br />
-        {{ section.html | safe }}
+      {% for skill in skills %}
+        <h2>#{{ skill }}</h2>
+        
       {% endfor %}
     </section>
   </body>

@@ -1,11 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Lora|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:200,400,600');
+
+@highlight: DeepPink;
+@secondary: gray;
+
+/* TAGS */
 
 body {
   font-family: "Montserrat", sans-serif;
+  font-size: 18px;
 }
 
 h1 {
   font-family: "Lora", serif;
+}
+
+h2 {
+  font-weight: 600;
 }
 
 section {
@@ -18,18 +28,30 @@ td {
   vertical-align: top;
 }
 
+/* CLASSES */
+
+.arrangement, .skills-skill {
+  border: 1px @highlight solid;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+}
+
 .container {
   
+}
+
+.hidden {
+  display: none;
 }
 
 .nowrap {
   white-space: nowrap;
 }
 
-.skills-skill {
-  border: 1px DeepPink solid;
-  display: inline-block;
-  padding: 5px;
+.skills-skill--dehighlighted {
+  border: 1px @secondary solid;
+  color: @secondary;
 }
 
 .tiny {

@@ -7,6 +7,7 @@ const less = require("gulp-less");
 const nunjucksRender = require("gulp-nunjucks-render");
 
 const CONTENT_FILES = ["cv"];
+const SKILLS = ["design", "leadership", "management"];
 
 /**
  * @unused
@@ -25,25 +26,46 @@ gulp.task("less", function() {
 });
 
 gulp.task("nunjucks", function() {
-  const content = [];
+  const content = {};
 
-  for (var i=0; i<CONTENT_FILES.length; ++i) {
+  for (let i=0; i<SKILLS.length; ++i) {
+    content[SKILLS[i]] = [];
+  }
+  
+  for (let i=0; i<CONTENT_FILES.length; ++i) {
     const rawData = fs.readFileSync("assets/" + CONTENT_FILES[i] + ".json", "utf8");
     const jsonData = JSON.parse(rawData);
     const template = fs.readFileSync("assets/" + CONTENT_FILES[i] + ".nunjucks", "utf8");
-
-    const contentObj = {
+    
+    content[jsonData.title] = [];
+    
+    for (let j=0; j<rawData.entries; ++j) {
+      const entryHtml = nunjucks.renderString(template, rawData.entries[j]);
+      const tags = rawData.entries[j].tags;
+      
+      content[jsonData.title].push(entryHtml);
+      
+      for (let k=0; k<tags.length; ++k) {
+        content[tags[k]].push(entryHtml);
+      }
+    }
+    
+    /*const contentObj = {
       id: jsonData.id,
       title: jsonData.title,
       html: nunjucks.renderString(template, jsonData)
     };
 
-    content.push(contentObj);
+    content.push(contentObj);*/
   }
 
   return gulp.src("index.nunjucks")
     .pipe(data(function() {
-      return { content: content };
+      return {
+        categories: CONTENT_FILES,
+        skills: SKILLS,
+        content: content
+      };
     }))
     .pipe(nunjucksRender())
     .pipe(gulp.dest("."));

@@ -1,4 +1,4 @@
-.brtlyst-gray {
+.brtlyst-secondary {
   color: gray;
 }
 .brtlyst-highlight {
@@ -7,4 +7,8 @@
 .brtlyst-link {
   color: DeepPink;
   text-decoration: none;
+}
+.brtlyst-thin {
+  font-weight: 200;
+  font-style: normal;
 }

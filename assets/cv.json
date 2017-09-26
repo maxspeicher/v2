@@ -1,12 +1,12 @@
 {
   "id": "cv",
   "title": "Curriculum Vitae",
-  "work": [
+  "entries": [
     {
       "date": "2017&mdash;",
       "company": "University of Michigan",
       "title": "Research Fellow",
-      "tags": ["design", "research", "leadership"]
+      "tags": ["design", "research", "leadership", "management"]
     },
     {
       "date": "2015&mdash;2017",
