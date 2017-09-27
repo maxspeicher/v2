@@ -6,9 +6,14 @@ body {
 }
 h1 {
   font-family: "Lora", serif;
+  font-size: 400%;
+  font-weight: 400;
+  line-height: 1em;
+  margin-bottom: .33em;
 }
 h2 {
-  font-weight: 600;
+  color: DeepPink;
+  font-weight: 200;
 }
 section {
   margin-bottom: 4em;
@@ -19,23 +24,47 @@ td {
   vertical-align: top;
 }
 /* CLASSES */
+.align-right {
+  text-align: right;
+}
 .arrangement,
 .skills-skill {
   border: 1px DeepPink solid;
   display: inline-block;
   margin-right: 10px;
+  margin-top: 10px;
   padding: 5px;
+}
+.arrangement--dehighlighted {
+  cursor: not-allowed;
 }
 .hidden {
   display: none;
 }
+.intro {
+  max-width: 40em;
+}
 .nowrap {
   white-space: nowrap;
 }
-.skills-skill--dehighlighted {
+.skills-skill--dehighlighted,
+.arrangement--dehighlighted {
   border: 1px gray solid;
   color: gray;
 }
+.space-2em {
+  height: 2em;
+}
 .tiny {
   font-size: 50%;
+}
+.top-link {
+  background-color: white;
+  border: 1px black solid;
+  bottom: 10px;
+  color: black;
+  padding: 10px;
+  position: fixed;
+  right: 10px;
+  text-decoration: none;
 }

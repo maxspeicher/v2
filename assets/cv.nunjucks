@@ -1,8 +1,11 @@
 <tr class="entry {% for tag in tags %}entry-{{ tag }} {% endfor %}">
-  {% if category %}
-    <td><span class="brtlyst-icon">{{ category | safe }}</span></td>
-  {% endif %}
-  <td class="nowrap">{{ date | safe }}</td>
+  <td class="align-right nowrap">
+    {{ date | safe }}
+    {% if category %}
+      <br />
+      <span class="brtlyst-icon">{{ category | safe }}</span>
+    {% endif %}
+  </td>
   <td>
     <span class="brtlyst-thin">{{ company }}:</span> {{title}}<br />
     {% for tag in tags %}

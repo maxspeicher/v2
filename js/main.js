@@ -1,5 +1,6 @@
 (function(window, document, $) {
 
+  let activeArrangement = "by-skill";
   let activeSkill = "";
 
   // DOM load
@@ -14,7 +15,9 @@
     });
       
     // filter by skill
-    $(".skills-skill").on("click", function() {
+    $(".skills-skill").on("click", function(e) {
+      e.preventDefault();
+      
       const name = $(this).attr("name");
       
       $(".entry").removeClass("hidden");
@@ -28,6 +31,33 @@
 
         activeSkill = name;
       }
+    });
+    
+    // arrange by category/skill
+    $(".arrangement").on("click", function(e) {
+      e.preventDefault();
+      
+      const name = $(this).attr("name");
+      
+      if (name === activeArrangement) {
+        return;
+      }
+      
+      $(".container").removeClass("hidden");
+      $(".container:not(#" + name + ")").addClass("hidden");
+      
+      $(".arrangement").removeClass("arrangement--dehighlighted");
+      $(this).addClass("arrangement--dehighlighted");
+      
+      activeArrangement = name;
+    });
+    
+    // smooth scroll to content
+    // @unused
+    $(".scroll-to-content").on("click", function() {
+      document.querySelector("#content").scrollIntoView({ 
+        behavior: "smooth"
+      });
     });
 
   });
