@@ -4,6 +4,8 @@
 @secondary: gray;
 @standard: black;
 
+@tiny: 60%;
+
 /* TAGS */
 
 body {
@@ -79,7 +81,7 @@ td {
 }
 
 .tiny {
-  font-size: 50%;
+  font-size: @tiny;
 }
 
 .top-link {
@@ -91,4 +93,23 @@ td {
   position: fixed;
   right: 10px;
   text-decoration: none;
+}
+
+.top-link:hover {
+  border: 1px @highlight solid;
+  color: @highlight;
+}
+
+/* SMALL SCREENS */
+
+@media screen and (max-width: 411px) {
+  
+  body {
+    font-size: 16px;
+  }
+  
+  h1 {
+    font-size: 367%;
+  }
+  
 }

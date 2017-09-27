@@ -6,11 +6,16 @@
 }
 .brtlyst-icon {
   border: 1px black solid;
+  color: black;
   display: inline-block;
-  font-size: 50%;
+  font-size: 60%;
   padding: 5px;
   text-align: center;
   text-decoration: none;
+}
+.brtlyst-icon:hover {
+  border: 1px DeepPink solid;
+  color: DeepPink;
 }
 .brtlyst-link {
   color: black;

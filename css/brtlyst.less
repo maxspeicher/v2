@@ -2,6 +2,8 @@
 @secondary: gray;
 @standard: black;
 
+@tiny: 60%;
+
 .brtlyst-secondary {
   color: @secondary;
 }
@@ -12,11 +14,17 @@
 
 .brtlyst-icon {
   border: 1px @standard solid;
+  color: @standard;
   display: inline-block;
-  font-size: 50%;
+  font-size: @tiny;
   padding: 5px;
   text-align: center;
   text-decoration: none;
+}
+
+.brtlyst-icon:hover {
+  border: 1px @highlight solid;
+  color: @highlight;
 }
 
 .brtlyst-link {
