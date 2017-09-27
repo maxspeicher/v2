@@ -1,6 +1,6 @@
 <tr class="entry {% for tag in tags %}entry-{{ tag }} {% endfor %}">
   {% if category %}
-    <td class="nowrap">{{ category | safe }}</td>
+    <td><span class="brtlyst-icon">{{ category | safe }}</span></td>
   {% endif %}
   <td class="nowrap">{{ date | safe }}</td>
   <td>

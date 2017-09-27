@@ -4,6 +4,13 @@
 .brtlyst-highlight {
   color: DeepPink !important;
 }
+.brtlyst-icon {
+  border: 1px black solid;
+  display: inline-block;
+  font-size: 50%;
+  padding: 5px;
+  text-align: center;
+}
 .brtlyst-link {
   color: DeepPink;
   text-decoration: none;
