@@ -25,7 +25,7 @@
     </section>
     <a id="content" name="content"></a>
     <section class="container">
-      {% for title, entries in content %}
+      {% for title, entries in content.categories %}
         <h2>{{ title }}</h2>
         <table border="0">
           {% for entry in entries %}
@@ -35,9 +35,15 @@
       {% endfor %}
     </section>
     <section class="container">
-      {% for skill in skills %}
-        <h2>#{{ skill }}</h2>
-        
+      {% for skill, entries in content.skills %}
+        {% if entries.length > 0 %}
+          <h2>#{{ skill }}</h2>
+          <table border="0">
+            {% for entry in entries %}
+              {{ entry | safe }}
+            {% endfor %}
+          </table>
+        {% endif %}
       {% endfor %}
     </section>
   </body>

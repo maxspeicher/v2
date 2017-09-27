@@ -1,5 +1,7 @@
 (function(window, document, $) {
 
+  let activeSkill = "";
+
   // DOM load
   $(function() {
 
@@ -17,9 +19,15 @@
       
       $(".entry").removeClass("hidden");
       $(".skills-skill").removeClass("skills-skill--dehighlighted");
-      
-      $(".entry:not(.entry-" + name + ")").addClass("hidden");
-      $(".skills-skill:not([name='" + name + "'])").addClass("skills-skill--dehighlighted");
+
+      if (name === activeSkill) {
+        activeSkill = "";
+      } else {
+        $(".entry:not(.entry-" + name + ")").addClass("hidden");
+        $(".skills-skill:not([name='" + name + "'])").addClass("skills-skill--dehighlighted");
+
+        activeSkill = name;
+      }
     });
 
   });

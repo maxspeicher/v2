@@ -1,4 +1,7 @@
 <tr class="entry {% for tag in tags %}entry-{{ tag }} {% endfor %}">
+  {% if category %}
+    <td class="nowrap">{{ category | safe }}</td>
+  {% endif %}
   <td class="nowrap">{{ date | safe }}</td>
   <td>
     <span class="brtlyst-thin">{{ company }}:</span> {{title}}<br />
