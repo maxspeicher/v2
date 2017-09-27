@@ -3,7 +3,7 @@
     {{ date | safe }}
     {% if category %}
       <br />
-      <span class="brtlyst-icon">{{ category | safe }}</span>
+      <span class="brtlyst-icon category">{{ category | safe }}</span>
     {% endif %}
   </td>
   <td>

@@ -10,7 +10,20 @@
     $(".skills-skill").on("mouseover", function() {
       const name = $(this).attr("name");
       $(".tag-" + name).addClass("brtlyst-highlight");
-    }).on("mouseout", function() {
+    }).on("mouseout click", function() {
+      $(".tag").removeClass("brtlyst-highlight");
+    });
+    
+    // highlight possibilities for arrangement
+    $("[name='by-category']").on("mouseover", function() {
+      $(".category").addClass("brtlyst-highlight");
+    }).on("mouseout click", function() {
+      $(".category").removeClass("brtlyst-highlight");
+    });
+    
+    $("[name='by-skill']").on("mouseover", function() {
+      $(".tag").addClass("brtlyst-highlight");
+    }).on("mouseout click", function() {
       $(".tag").removeClass("brtlyst-highlight");
     });
       
