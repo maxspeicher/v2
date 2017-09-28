@@ -1,0 +1,41 @@
+{
+  "id": "articles",
+  "title": "Selected Articles",
+  "entries": [
+    {
+      "date": "2017",
+      "dateInt": 2017,
+      "link": "https://medium.com/startupsco/how-to-data-analytics-in-a-start-up-f801d0ccf5d2",
+      "title": "How to Data Analytics (in a Start-up)",
+      "tags": ["analytics", "management", "startup", "ux"]
+    },
+    {
+      "date": "2016",
+      "dateInt": 2016,
+      "link": "https://medium.com/startupsco/what-do-highly-successful-start-ups-have-in-common-1810064a6851",
+      "title": "What Do Highly Successful Start-ups Have in Common?",
+      "tags": ["analytics", "research", "startup"]
+    },
+    {
+      "date": "2016",
+      "dateInt": 2016,
+      "link": "https://medium.theuxblog.com/on-design-thinking-4a4980aebe8d",
+      "title": "On Design Thinking",
+      "tags": ["design", "research"]
+    },
+    {
+      "date": "2016",
+      "dateInt": 2016,
+      "link": "https://medium.com/@maxspeicher/lean-support-the-case-of-holobuilder-7bb74bdcf1f4",
+      "title": "Lean Support",
+      "tags": ["startup", "ux"]
+    },
+    {
+      "date": "2014",
+      "dateInt": 2014,
+      "link": "https://2008.maxspeicher.com/2014/05/14/the-most-important-game-of-my-life/",
+      "title": "The Most Important Game of my Life",
+      "tags": ["leadership", "ringtennis"]
+    }
+  ]
+}

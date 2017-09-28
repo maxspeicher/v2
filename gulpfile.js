@@ -6,8 +6,16 @@ const data = require("gulp-data");
 const less = require("gulp-less");
 const nunjucksRender = require("gulp-nunjucks-render");
 
-const CONTENT_FILES = ["cv"];
+const CONTENT_FILES = ["articles", "cv"];
 const SKILLS = ["design", "leadership", "management"];
+
+function compare(a,b) {
+  if (a.dateInt < b.dateInt)
+    return +1;
+  if (a.dateInt > b.dateInt)
+    return -1;
+  return 0;
+}
 
 /**
  * @unused
@@ -31,11 +39,15 @@ gulp.task("nunjucks", function() {
     skills: {}
   };
 
+  const skillsTemp = {};
+
   for (let i=0; i<SKILLS.length; ++i) {
     content.skills[SKILLS[i]] = [];
+    skillsTemp[SKILLS[i]] = [];
   }
 
   content.skills.other = [];
+  skillsTemp.other = [];
   
   for (let i=0; i<CONTENT_FILES.length; ++i) {
     const rawData = fs.readFileSync("assets/" + CONTENT_FILES[i] + ".json", "utf8");
@@ -54,15 +66,23 @@ gulp.task("nunjucks", function() {
       let added = false;
 
       for (let k=0; k<tags.length; ++k) {
-        if (content.skills[tags[k]]) {
-          content.skills[tags[k]].push(entrySkill);
+        if (skillsTemp[tags[k]]) {
+          skillsTemp[tags[k]].push({ dateInt: jsonData.entries[j].dateInt, entry: entrySkill });
           added = true;
         }
       }
 
       if (!added) {
-        content.skills.other.push(entryHtml);
+        skillsTemp.other.push({ dateInt: jsonData.entries[j].dateInt, entry: entrySkill });
       }
+    }
+  }
+
+  for (let i=0; i<SKILLS.length; ++i) {
+    skillsTemp[SKILLS[i]].sort(compare);
+
+    for (let j=0; j<skillsTemp[SKILLS[i]].length; ++j) {
+      content.skills[SKILLS[i]].push(skillsTemp[SKILLS[i]][j].entry);
     }
   }
 
