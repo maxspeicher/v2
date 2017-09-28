@@ -1,0 +1,28 @@
+<tr class="entry {% for tag in tags %}entry-{{ tag }} {% endfor %}">
+  <td class="align-right nowrap">
+    {{ date | safe }}
+    {% if category %}
+      <br />
+      <span class="brtlyst-icon category">{{ category | safe }}</span>
+    {% endif %}
+  </td>
+  <td>
+    {% if link %}
+      <a href="{{ link }}" target="_blank" class="brtlyst-light">{{ name | safe }}</a>
+    {% else %}
+      <span class="brtlyst-secondary brtlyst-light">{{ name | safe }}</span>
+    {% endif %}
+    <br />
+    {% if type === "own" %}
+      <span class="brtlyst-secondary tag tag-own tiny">#own</span>
+    {% else %}
+      <span class="brtlyst-secondary tag tag-collaboration tiny">#collaboration</span>
+    {% endif %}
+    {% if link === undefined %}
+      <span class="brtlyst-secondary tag tag-offline tiny">#offline</span>
+    {% endif %}
+    {% for tag in tags %}
+      <span class="brtlyst-secondary tag tag-{{ tag }} tiny">#{{ tag }}</span>
+    {% endfor %}
+  </td>
+</tr>

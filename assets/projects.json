@@ -1,59 +1,107 @@
 {
   "id": "projects",
   "title": "Selected Projects",
-  "own": [
+  "entries": [
     {
-      "name": "Search Interaction Optimization",
-      "link": "/phdthesis",
-      "logo": "/phdthesis/SIO_logo.svg",
-      "tags": ["chi", "human-centered design", "java", "jquery", "mysql", "node.js", "phd", "research", "usability", "web components", "weka"]
-    },
-    {
+      "date": "2016",
+      "dateInt": 2016,
       "name": "The U Score",
       "link": "http://theuscore.maxspeicher.com/",
-      "logo": "/images/the-u-score.svg",
-      "tags": ["bootstrap", "bourbon.io", "es6", "express js", "google analytics", "jade", "jquery", "material design", "node.js", "research", "sass", "usability"]
+      "type": "own",
+      "tags": []
     },
     {
-      "name": "2008",
-      "link": "https://2008.maxspeicher.com/"
-    },
-    {
+      "date": "2016",
+      "dateInt": 2016,
       "name": "&lsquo;Good Mood&rsquo;",
       "link": "/goodmood",
-      "logo": "/images/goodmood.svg",
-      "tags": ["express js", "jade", "jquery", "material design lite", "motivation", "node.js"]
-    }
-  ],
-  "contributions": [
-    {
-      "name": "HoloBuilder",
-      "link": "https://www.holobuilder.com/"
+      "type": "own",
+      "tags": []
     },
     {
+      "date": "2015&ndash;2017",
+      "dateInt": 2015,
+      "name": "HoloBuilder",
+      "link": "https://www.holobuilder.com/",
+      "type": "contribution",
+      "tags": []
+    },
+    {
+      "date": "since 2014",
+      "dateInt": 2014,
+      "name": "2008",
+      "link": "https://2008.maxspeicher.com/",
+      "type": "own",
+      "tags": []
+    },
+    {
+      "date": "2013&ndash;2016",
+      "dateInt": 2013,
+      "name": "Search Interaction Optimization",
+      "link": "/phdthesis",
+      "type": "own",
+      "tags": []
+    },
+    {
+      "date": "2012&ndash;2014",
+      "dateInt": 2012,
+      "name": "BlueKiwi",
+      "type": "contribution",
+      "tags": []
+    },
+    {
+      "date": "2011&ndash;2012",
+      "dateInt": 2011,
       "name": "W3Touch",
       "link": "http://dev.globis.ethz.ch/w3touch/",
-      "logo": "/images/w3touch.jpg",
-      "tags": ["chi", "crowdsourcing", "eth zurich", "human-computer interaction", "jquery", "msc", "mysql", "php", "research", "user experience"]
+      "type": "contribution",
+      "tags": []
     },
     {
+      "date": "2011",
+      "dateInt": 2011,
       "name": "CrowdAdapt",
-      "link": "http://dev.globis.ethz.ch/crowdadapt/"
+      "link": "http://dev.globis.ethz.ch/crowdadapt/",
+      "type": "contribution",
+      "tags": []
     },
     {
+      "date": "2011",
+      "dateInt": 2011,
       "name": "CrowdStudy",
-      "link": "http://dev.globis.ethz.ch/crowdstudy/"
+      "link": "http://dev.globis.ethz.ch/crowdstudy/",
+      "type": "contribution",
+      "tags": []
     },
     {
+      "date": "2011",
+      "dateInt": 2011,
       "name": "jQMultiTouch",
-      "link": "https://github.com/globis-ethz/jqmultitouch"
+      "link": "https://github.com/globis-ethz/jqmultitouch",
+      "type": "contribution",
+      "tags": []
     },
     {
+      "date": "2011",
+      "dateInt": 2011,
       "name": "XQuery on Android",
-      "link": "https://sites.google.com/site/mxqueryandroid/"
+      "link": "https://sites.google.com/site/mxqueryandroid/",
+      "type": "contribution",
+      "tags": []
     },
     {
-      "name": "BlueKiwi"
+      "date": "2009",
+      "dateInt": 2009,
+      "name": "StuKal",
+      "type": "contribution",
+      "tags": []
+    },
+    {
+      "date": "2008&ndash;2010",
+      "dateInt": 2008,
+      "name": "The Modern Web Design Awards",
+      "type": "own",
+      "tags": []
     }
   ]
 }
