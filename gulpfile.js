@@ -86,6 +86,10 @@ gulp.task("nunjucks", function() {
     }
   }
 
+  for (let i=0; i<skillsTemp.other.length; ++i) {
+    content.skills.other.push(skillsTemp.other[i].entry);
+  }
+
   return gulp.src("index.nunjucks")
     .pipe(data(function() {
       return {

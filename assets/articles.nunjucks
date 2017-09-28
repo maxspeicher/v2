@@ -7,7 +7,7 @@
     {% endif %}
   </td>
   <td>
-    <a href="{{ link }}" target="_blank">{{ title }}</a><br />
+    <a href="{{ link }}" target="_blank" class="brtlyst-light">{{ title }}</a><br />
     {% for tag in tags %}
       <span class="brtlyst-secondary tag tag-{{ tag }} tiny">#{{ tag }}</span>
     {% endfor %}

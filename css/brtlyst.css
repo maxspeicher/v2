@@ -1,3 +1,8 @@
+a,
+.brtlyst-link {
+  color: black;
+  text-decoration: underline;
+}
 .brtlyst-secondary {
   color: gray;
 }
@@ -17,10 +22,9 @@
   border: 1px DeepPink solid;
   color: DeepPink;
 }
-a,
-.brtlyst-link {
-  color: black;
-  text-decoration: underline;
+.brtlyst-light {
+  font-weight: 300;
+  font-style: normal;
 }
 .brtlyst-link--highlighted {
   color: DeepPink;

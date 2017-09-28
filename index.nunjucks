@@ -25,7 +25,7 @@
     </section>
     <section class="skills">
       {% for skill in skills %}
-        <a class="skills-skill brtlyst-link--highlighted" href="#" name="{{ skill }}">#{{ skill }}</a>
+        <a class="skills-skill brtlyst-link--highlighted" href="#" name="{{ skill }}"><span class="brtlyst-thin">#</span>{{ skill }}</a>
       {% endfor %}
       <div class="space-2em"></div>
       <a href="#" class="arrangement brtlyst-link--highlighted" name="by-category">
