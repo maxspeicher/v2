@@ -90,7 +90,7 @@ gulp.task("nunjucks", function() {
     content.skills.other.push(skillsTemp.other[i].entry);
   }
 
-  return gulp.src("index.nunjucks")
+  return gulp.src("test.nunjucks")
     .pipe(data(function() {
       return {
         categories: CONTENT_FILES,
@@ -104,7 +104,8 @@ gulp.task("nunjucks", function() {
 
 gulp.task("watch", function() {
   gulp.watch("css/*.less", ["less"]);
-  gulp.watch(["index.nunjucks", "assets/*.json", "assets/*.nunjucks"], ["nunjucks"]);
+  gulp.watch(["test.nunjucks", "assets/*.json", "assets/*.nunjucks"], ["nunjucks"]);
+  gulp.watch(["test.nunjucks", "assets/*.json", "assets/*.nunjucks"], ["nunjucks"]);
 });
 
 gulp.task("default", ["watch", "less", "nunjucks"]);
