@@ -18,7 +18,7 @@ a,
   text-align: center;
   text-decoration: none;
 }
-.brtlyst-icon:hover {
+a.brtlyst-icon:hover {
   border: 1px DeepPink solid;
   color: DeepPink;
 }
