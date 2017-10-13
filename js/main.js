@@ -72,6 +72,12 @@
         behavior: "smooth"
       });
     });
+    
+    // 'show more' link
+    $(".link-show-more").on("click", function() {
+      $(".intro-more").removeClass("hidden");
+      $(".link-show-more").addClass("hidden");
+    });
 
   });
 
