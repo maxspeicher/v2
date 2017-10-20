@@ -1,0 +1,230 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster|Roboto);
+
+a.component {
+    color: #ddd;
+    text-decoration: none;
+    -moz-transition: padding-top 0.4s, opacity 0.4s;
+    -webkit-transition: padding-top 0.4s, opacity 0.4s;
+    transition: padding-top 0.4s, opacity 0.4s;
+    -moz-transition-delay: 0.1s;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+a.component:hover {
+    padding-top: 2em;
+}
+
+a.component:before {
+    background-color: #ddd;
+    content: "";
+    display: block;
+    height: 0;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    -moz-transition: height 0.4s;
+    -webkit-transition: height 0.4s;
+    transition: height 0.4s;
+    width: 100%;
+}
+
+a.component:hover:before {
+    height: 1em;
+}
+
+body, html {
+    height: 100%;
+}
+
+a {
+    color: #ddd;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ddd;
+}
+
+a.blue:hover {
+    color: #2980b9;
+}
+
+body {
+    background-color: #2c3e50;
+    color: #ddd;
+    font-family: 'Roboto', sans-serif;
+    margin: 1em;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 2em;
+}
+
+paper-ripple {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.center {
+    text-align: center;
+}
+
+.component-container {
+    display: inline-block;
+    float: left;
+    position: relative;
+    width: 50%;
+}
+
+.component-dummy {
+    padding-top: 100%;
+}
+
+.component {
+    bottom: 0;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+    left: 0;
+    padding: 1em;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    top: 0;
+}
+
+@media screen and (min-width: 560px) {
+    .component {
+        font-size: 1.5em;
+    }
+}
+
+.half-transparent {
+    opacity: 0.5;
+}
+
+.hide {
+  display: none;
+}
+
+.margin-2em {
+    display: block;
+    height: 2em;
+    width: auto;
+}
+
+.sc {
+    font-variant: small-caps;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1:before {
+    float: left;
+}
+
+.title h1:after {
+    float: right;
+}
+
+.title h1:before, .title h1:after {
+    border-top: 1px #eee solid;
+    content: "";
+    display: block;
+    height: 0.1em;
+    margin-top: 0.7em;
+    width: 1.4em;
+}
+
+#back {
+    display: table;
+    position: fixed;
+    top: 1em;
+    left: 1em;
+}
+
+#back a:hover {
+    color: #fff;
+}
+
+#components {
+    margin: 1em 0 2em 0;
+}
+
+#component-1 {
+    background-color: #3498db;
+}
+
+#component-2 {
+    background-color: #2980b9;
+}
+
+#component-3 {
+    background-color: #2ecc71;
+}
+
+#component-4 {
+    background-color: #27ae60;
+}
+
+#component-5 {
+    background-color: #1abc9c;
+}
+
+#component-6 {
+    background-color: #16a085;
+}
+
+#loading-msg {
+    background-color: #ddd;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #2c3e50;
+    font-size: .75em;
+    margin-top: 1em;
+    padding: 1em;
+    -moz-transition: opacity .5s;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s;
+    width: 10em;
+}
+
+#loading-msg a {
+    color: #2c3e50;
+    text-decoration: underline;
+}
+
+#logo {
+    margin: 1em 0;
+    text-align: center;
+}
+
+#logo > img {
+    width: 50%;
+}
+
+#main {
+    margin: 0 auto;
+    max-width: 40em;
+}
+
+#selection i {
+    margin: 0 1em;
+}

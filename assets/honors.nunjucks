@@ -1,0 +1,19 @@
+<tr class="entry {% for tag in tags %}entry-{{ tag }} {% endfor %}">
+  <td class="align-right nowrap">
+    {{ year if year else dateInt | safe }}
+    {% if category %}
+      <br />
+      <span class="brtlyst-icon category">{{ category | safe }}</span>
+    {% endif %}
+  </td>
+  <td>
+    {{ description }}
+    {% if info %}
+      <span class="brtlyst-light brtlyst-smaller">{{ info }}</span>
+    {% endif %}
+    <br />
+    {% for tag in tags %}
+      <span class="brtlyst-secondary tag tag-{{ tag }} tiny">#{{ tag }}</span>
+    {% endfor %}
+  </td>
+</tr>

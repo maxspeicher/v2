@@ -1,0 +1,53 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+body {
+  background-color: #eee;
+  color: #111;
+  font-family: 'Roboto', sans-serif;
+  margin: 0 auto;
+  padding: 0.5em;
+  max-width: 33em;
+}
+
+div {
+  background-color: #f8f8f8;
+  border: 1px #ddd solid;
+  border-bottom-width: 2px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  padding: 0.67em;
+}
+
+div > :first-child {
+  margin-top: 0;
+}
+
+nav {
+  background-color: #111;
+  left: 0;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+}
+
+nav > a {
+  color: #eee;
+  display: inline-block;
+  padding: 0.5em;
+  text-decoration: none;
+}
+
+nav > a:hover {
+  background-color: #eee;
+  color: #111;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#mobileNav {
+  text-align: right;
+}

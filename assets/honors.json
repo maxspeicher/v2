@@ -1,84 +1,110 @@
 {
   "id": "honors",
   "title": "Honors & Awards",
-  "honors": [
+  "entries": [
     {
       "type": "trophy",
-      "description": "German Champion in Ringtennis, Men's Alternating Doubles",
-      "year": 2016
+      "description": "Men's Captain of the Germany National Ringtennis Team",
+      "year": "since 2010",
+      "dateInt": 2010,
+      "tags": ["leadership", "ringtennis"]
+    },
+    {
+      "type": "trophy",
+      "description": "German Champion in Ringtennis",
+      "info": "Men's Alternating Doubles",
+      "dateInt": 2016,
+      "tags": ["ringtennis"]
     },
     {
       "type": "certificate",
       "description": "CHI '15 Best Paper Honorable Mention Award",
-      "organization": "ACM SIGCHI",
-      "year": 2015
+      "info": "ACM SIGCHI",
+      "dateInt": 2015,
+      "tags": ["research"]
     },
     {
       "type": "trophy",
-      "description": "German Champion in Ringtennis, Men's Doubles",
-      "year": 2014
+      "description": "German Champion in Ringtennis",
+      "info": "Men's Doubles",
+      "dateInt": 2014,
+      "tags": ["ringtennis"]
     },
     {
       "type": "trophy",
       "description": "World Team Champion in Ringtennis",
       "location": "Vereeniging, South Africa",
-      "year": 2014
+      "dateInt": 2014,
+      "tags": ["ringtennis"]
     },
     {
       "type": "certificate",
       "description": "Industrial Ph.D. Scholarship",
-      "organization": "Sächsische Aufbaubank (SAB)",
-      "year": 2013
+      "info": "Sächsische Aufbaubank (SAB)",
+      "dateInt": 2013,
+      "tags": ["computer science", "research"]
     },
-        {
+    {
       "type": "certificate",
       "description": "Excellence Scholarship",
-      "organization": "ETH Zurich",
-      "year": 2011
+      "info": "ETH Zurich",
+      "dateInt": 2011,
+      "tags": ["computer science"]
     },
     {
       "type": "trophy",
-      "description": "German Champion in Ringtennis, Men's Alternating Doubles",
-      "year": 2011
+      "description": "German Champion in Ringtennis",
+      "info": "Men's Alternating Doubles",
+      "dateInt": 2011,
+      "tags": ["ringtennis"]
     },
     {
       "type": "trophy",
       "description": "German Team Champion in Ringtennis",
-      "year": 2011
+      "dateInt": 2011,
+      "tags": ["ringtennis"]
     },
     {
       "type": "certificate",
       "description": "Dean's List (Top 3%)",
-      "organization": "RWTH Aachen University",
-      "year": 2010
+      "info": "RWTH Aachen University",
+      "dateInt": 2010,
+      "tags": ["computer science"]
     },
     {
       "type": "certificate",
       "description": "Dean's List (Top 3%)",
-      "organization": "RWTH Aachen University",
-      "year": 2009
+      "info": "RWTH Aachen University",
+      "dateInt": 2009,
+      "tags": ["computer science"]
     },
     {
       "type": "trophy",
-      "description": "German Champion in Ringtennis, Men's Singles",
-      "year": 2008
+      "description": "German Champion in Ringtennis",
+      "info": "Men's Singles",
+      "dateInt": 2008,
+      "tags": ["ringtennis"]
     },
     {
       "type": "certificate",
       "description": "Carl Schuhmann Medal",
-      "organization": "Deutscher Turner-Bund",
-      "year": 2007
+      "info": "Deutscher Turner-Bund",
+      "dateInt": 2007,
+      "tags": ["ringtennis"]
     },
     {
       "type": "trophy",
-      "description": "German Champion in Ringtennis, Mixed Doubles",
-      "year": 2007
+      "description": "German Champion in Ringtennis",
+      "info": "Mixed Doubles",
+      "dateInt": 2007,
+      "tags": ["ringtennis"]
     },
     {
       "type": "trophy",
       "description": "World Team Champion in Ringtennis",
       "location": "Chennai, India",
-      "year": 2006
+      "dateInt": 2006,
+      "tags": ["ringtennis"]
     }
   ]
 }

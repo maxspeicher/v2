@@ -30,6 +30,9 @@ a.brtlyst-icon:hover {
   color: DeepPink;
   text-decoration: none;
 }
+.brtlyst-smaller {
+  font-size: 80%;
+}
 .brtlyst-thin {
   font-weight: 200;
   font-style: normal;

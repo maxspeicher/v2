@@ -6,7 +6,7 @@ const data = require("gulp-data");
 const less = require("gulp-less");
 const nunjucksRender = require("gulp-nunjucks-render");
 
-const CONTENT_FILES = ["articles", "projects", "cv"];
+const CONTENT_FILES = ["articles", "projects", "cv", "honors"];
 const SKILLS = ["design", "leadership", "management"];
 
 function compare(a,b) {
@@ -85,6 +85,8 @@ gulp.task("nunjucks", function() {
       content.skills[SKILLS[i]].push(skillsTemp[SKILLS[i]][j].entry);
     }
   }
+
+  skillsTemp.other.sort(compare);
 
   for (let i=0; i<skillsTemp.other.length; ++i) {
     content.skills.other.push(skillsTemp.other[i].entry);

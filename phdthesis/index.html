@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+<title>Search Interaction Optimization &blacksquare; MaxSpeicher.com</title>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" no-shim />
+<link rel="stylesheet" href="style.css" no-shim />
+
+<!-- 1. Load webcomponents.min.js for polyfill support. -->
+<script src="components/webcomponentsjs/webcomponents.js"></script>
+
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+
+</head>
+
+<body>
+
+  <div id="back">
+  	<a href="/">
+      <i class="fa fa-cog fa-spin fa-2x"></i>
+      <i class="fa fa-arrow-left fa-2x hide"></i>
+  	</a>
+    <div id="loading-msg">
+      Slow loading times due to experiments with <a href="https://www.polymer-project.org/1.0/">Polymer</a>.
+      Please excuse!
+    </div>
+    <script>
+      $("#loading-msg").on("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", function() {
+        $(this).css("visibility", "hidden");
+      });
+
+      $(function() {
+        $(".fa-cog, .fa-arrow-left").toggleClass("hide");
+        $("#loading-msg").css("opacity", 0);
+      });
+    </script>
+  </div>
+
+  <div id="main">
+      <div id="logo">
+          <img src="SIO_logo.svg" alt="Search Interaction Optimization" />
+      </div>
+      <div class="title">
+          <h1>Search Interaction Optimization</h1>
+          <h2>A Human-Centered Design Approach</h2>
+      </div>
+      <p>
+          <strong>Search</strong> engine results pages&mdash;although being among the most important types of pages on the
+          web&mdash;are often not optimal to <strong>interact</strong> with from the user's perspective. Therefore, in the
+          course of my Ph.D. thesis, I have developed automatic methods for analyzing and <strong>optimizing</strong>
+          search engine results pages based on user interactions. These methods are part of a new <em>Search
+          Interaction Optimization</em> toolkit, whose components you can explore below. To develop these tools, I have
+          engaged a <em>Human-Centered Design</em> methodology. My Ph.D. thesis has been advised by Prof. Dr.-Ing.
+          Martin Gaedke at Chemnitz University of Technology in cooperation with Unister GmbH (Leipzig) and has been funded
+          by the ESF and the Free State of Saxony.
+      </p>
+      <p class="center">
+          <a href="http://nbn-resolving.de/urn:nbn:de:bsz:ch1-qucosa-208102" class="blue"><i class="fa fa-file-pdf-o fa-5x"></i></a>
+      </p>
+      <div class="margin-2em"></div>
+      <div class="title">
+          <h1>The Toolkit</h1>
+      </div>
+      <p>
+      	What do you want to do?
+      </p>
+      <p id="selection">
+      	<a href="javascript:;" class="checked" data-components="component-1 component-2 component-3">
+      		<i class="fa fa-check-square"></i> <em>Evaluate</em> a search engine results page
+      	</a><br />
+      	<a href="javascript:;" class="checked" data-components="component-3 component-4 component-5 component-6">
+      		<i class="fa fa-check-square"></i> <em>Optimize</em> a search engine results page
+      	</a><br />
+      	<a href="javascript:;" class="checked" data-components="component-4">
+      		<i class="fa fa-check-square"></i> <em>Design</em> a search engine results page
+      	</a>
+      	<script>
+      		$("#selection a").on("click", function() {
+      			var $this = $(this);
+      			var activeComponents = [];
+
+      			$this.toggleClass("checked");
+      			$this.find("i").toggleClass("fa-square fa-check-square");
+
+      			$("#selection .checked").each(function(i, el) {
+      				var $el = $(el);
+      				var components = $el.data("components").split(" ");
+
+      				$.merge(activeComponents, components);
+      			});
+
+      			$(".component").each(function(i, el) {
+    					var $el = $(el);
+    					var id = $el.attr("id");
+
+    					if ($.inArray(id, activeComponents) > -1) {
+    						$el.removeClass("hidden");
+    						$el.css({
+    							opacity: 100,
+    							visibility: "visible"
+    						});
+    					} else {
+    						$el.css("opacity", 0);
+    						$el.addClass("hidden");
+    					}
+    				});
+      		});
+      	</script>
+      </p>
+      <link rel="import" href="components/paper-ripple/paper-ripple.html" />
+      <div id="components"></div>
+      <script>
+        var components = {
+          list: [
+            {
+              name: "<span class='sc'>Inuit</span>: The Interface Usability Instrument",
+              link: "https://github.com/maxspeicher/inuit-resources",
+              id: "component-1"
+            },
+            {
+              name: "WaPPU: Was That Page Pleasant to Use?",
+              link: "https://github.com/maxspeicher/wappu-service",
+              id: "component-2"
+            },
+            {
+              name: "S.O.S.: The SERP Optimization Suite",
+              link: "https://github.com/maxspeicher/sos",
+              id: "component-3"
+            },
+            {
+              name: "Best Practices for SERPs",
+              link: "https://github.com/maxspeicher/sos",
+              id: "component-4"
+            },
+            {
+              name: "Tell&shy;My&shy;Relevance!",
+              link: "https://github.com/maxspeicher/tellmyrelevance-resources",
+              id: "component-5"
+            },
+            {
+              name: "Stream&shy;My&shy;Relevance!",
+              link: "https://github.com/maxspeicher/streammyrelevance-resources",
+              id: "component-6"
+            }
+          ]
+        };
+
+        var output = Mustache.render(
+            "{{#list}}<div class='component-container'><div class='component-dummy'></div>" +
+            "<a href='{{link}}' class='component' id='{{id}}'><i class='fa fa-github'></i> {{{name}}}<paper-ripple></paper-ripple></a>" +
+            "</div>{{/list}}",
+          components);
+        document.getElementById("components").innerHTML = output + "<br style='clear: left' />";
+
+        $(".component").on("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", function() {
+    			var $this = $(this);
+
+    			if ($this.hasClass("hidden")) {
+    				$this.css("visibility", "hidden");
+    			} else {
+    				$this.css("visibility", "visible");
+    			}
+    		});
+      </script>
+      <div class="margin-2em"></div>
+      <div class="title">
+          <h1>Publications</h1>
+      </div>
+      <link rel="import" href="components/sio-publications/sio-publications.html" />
+      <sio-publications></sio-publications>
+      <div class="margin-2em"></div>
+      <div class="title">&copy; 2013&ndash;2016 by Maximilian Speicher</div>
+      <div class="margin-2em"></div>
+  </div>
+
+  <script>
+    $("a").on("click", function() {
+      if (window.ga) {
+        window.ga("send", "event", "link", "click", $(this).attr('href'));
+      }
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+<link rel="import" href="../polymer/polymer.html">
+
+<polymer-element name="sio-publications">
+  <template>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" noshim />
+    <style no-shim>
+      a {
+        color: #2980b9;
+        text-decoration: none;
+      }
+
+      li {
+        margin-bottom: 1em;
+      }
+
+      q {
+        font: inherit;
+        quotes: "“" "”" "‘" "’";
+      }
+
+      q:before {
+        content: open-quote;
+      }
+
+      q:after {
+        content: close-quote;
+      }
+    </style>
+
+    <ol reversed="reversed">
+      <template repeat="{{p in publications}}">
+        <li>
+          {{p.authors}} ({{p.year}}). <q>{{p.title}}</q>. In: <em>{{p.booktitle}}</em>.
+          <a href="{{p.link}}"><i class="fa fa-file-o"></i></a>
+        </li>
+      </template>
+    </ol>
+  </template>
+
+  <script>
+    Polymer("sio-publications", {
+      publications: [
+        {
+          "authors": "Maximilian Speicher, Sebastian Nuck, Lars Wesemann, Andreas Both, and Martin Gaedke",
+          "title": "From TMR to Turtle: Predicting Result Relevance From Mouse Cursor Interactions in Web Search",
+          "booktitle": "Journal of Web Engineering",
+          "year": 2015,
+          "link": "http://www.rintonpress.com/xjwe14/jwe-14-56/386-413.pdf"
+        },
+        {
+          "authors": "Maximilian Speicher, Andreas Both, and Martin Gaedke",
+          "title": "INUIT: The Interface Usability Instrument",
+          "booktitle": "Proc. DUXU",
+          "year": 2015,
+          "link": "https://www.researchgate.net/publication/282441105"
+        },
+        {
+          "authors": "Maximilian Speicher, Andreas Both, and Martin Gaedke",
+          "title": "S.O.S.: Does Your Search Engine Results Page (SERP) Need Help?",
+          "booktitle": "Proc. CHI [Best Paper Honorable Mention Award]",
+          "year": 2015,
+          "link": "https://www.researchgate.net/publication/282441131"
+        },
+        {
+          "authors": "Maximilian Speicher",
+          "title": "What is Usability? A Characterization based on ISO 9241-11 and ISO/IEC 25010",
+          "booktitle": "Technical Reports, Department of Computer Science, Technische Universität Chemnitz",
+          "year": 2015,
+          "link": "https://www.tu-chemnitz.de/informatik/service/ib/2015.php.en"
+        },
+        {
+          "authors": "Andreas Both, Axel-Cyrille Ngonga Ngomo, Ricardo Usbeck, Denis Lukovnikov, Christiane Lemke and Maximilian Speicher",
+          "title": "A Service-oriented Search Framework for Full Text, Geospatial and Semantic Search",
+          "booktitle": "Proc. SEMANTiCS",
+          "year": 2014,
+          "link": "http://svn.aksw.org/papers/2014/SEMANTiCS_architecture/public.pdf"
+        },
+        {
+          "authors": "Maximilian Speicher, Andreas Both, and Martin Gaedke",
+          "title": "Ensuring Web Interface Quality through Usability-based Split Testing",
+          "booktitle": "Proc. ICWE",
+          "year": 2014,
+          "link": "https://www.researchgate.net/publication/271269916"
+        },
+        {
+          "authors": "Maximilian Speicher, Sebastian Nuck, Andreas Both, and Martin Gaedke",
+          "title": "StreamMyRelevance! Prediction of Result Relevance from Real-Time Interactions and its Application to Hotel Search",
+          "booktitle": "Proc. ICWE",
+          "year": 2014,
+          "link": "https://www.researchgate.net/publication/263167518"
+        },
+        {
+          "authors": "Maximilian Speicher, Andreas Both, and Martin Gaedke",
+          "title": "WaPPU: Usability-based A/B Testing",
+          "booktitle": "Proc. ICWE (Demos)",
+          "year": 2014,
+          "link": "https://www.researchgate.net/publication/271269917"
+        },
+        {
+          "authors": "Maximilian Speicher",
+          "title": "Paving the Path to Content-centric and Device-agnostic Web Design",
+          "booktitle": "Proc. ICWE (Posters)",
+          "year": 2014,
+          "link": "https://www.researchgate.net/publication/282440341"
+        },
+        {
+          "authors": "Maximilian Speicher, Andreas Both, and Martin Gaedke",
+          "title": "TellMyRelevance! Predicting the Relevance of Web Search Results from Cursor Interactions",
+          "booktitle": "Proc. CIKM",
+          "year": 2013,
+          "link": "https://www.researchgate.net/publication/262312351"
+        },
+        {
+          "authors": "Michael Röder, Maximilian Speicher, and Ricardo Usbeck",
+          "title": "Investigating Quality Raters' Performance Using Interface Evaluation Methods",
+          "booktitle": "Proc. INFORMATIK (Posters)",
+          "year": 2013,
+          "link": "https://www.researchgate.net/publication/256976967"
+        },
+        {
+          "authors": "Maximilian Speicher, Andreas Both, and Martin Gaedke",
+          "title": "Towards Metric-based Usability Evaluation of Online Web Interfaces",
+          "booktitle": "Mensch & Computer Workshopband",
+          "year": 2013,
+          "link": "https://www.researchgate.net/publication/271269915"
+        },
+        {
+          "authors": "Maximilian Speicher, Andreas Both, and Martin Gaedke",
+          "title": "Was that Webpage Pleasant to Use? Predicting Usability Quantitatively from Interactions",
+          "booktitle": "Proc. ICWE Workshops",
+          "year": 2013,
+          "link": "https://www.researchgate.net/publication/249009509"
+        }
+      ]
+    });
+  </script>
+</polymer-element>
