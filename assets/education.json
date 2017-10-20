@@ -1,0 +1,144 @@
+{
+  "id": "cv",
+  "title": "Curriculum Vitae",
+  "entries": [
+    {
+      "date": "since 2017",
+      "dateInt": 2017,
+      "company": "University of Michigan",
+      "title": "Research Fellow",
+      "tags": ["design", "research", "leadership", "management"]
+    },
+    {
+      "date": "2015&mdash;2017",
+      "dateInt": 2015,
+      "company": "bitstars GmbH",
+      "title": "VP of Customer & Data Analytics & Optimization",
+      "tags": ["analytics", "ux", "leadership", "management"]
+    },
+    {
+      "date": "2013&mdash;2014",
+      "dateInt": 2013,
+      "company": "R&D, Unister GmbH",
+      "title": "Researcher (Industrial Ph.D. Student)",
+      "tags": ["design", "research"]
+    },
+    {
+      "date": "2012",
+      "dateInt": 2012,
+      "company": "R&D, Unister GmbH",
+      "title": "Intern",
+      "tags": ["design", "research"]
+    },
+    {
+      "date": "2010&mdash;2011",
+      "dateInt": 2010,
+      "company": "ETH Zurich",
+      "title": "Student Assistant",
+      "tags": ["design", "research"]
+    },
+    {
+      "date": "2009&mdash;2010",
+      "dateInt": 2009,
+      "company": "GFIU mbH",
+      "title": "Student Assistant",
+      "tags": ["design", "research"]
+    }
+  ],
+  "education": [
+    {
+      "date": "2013&mdash;2016",
+      "name": "Chemnitz University of Technology",
+      "degree": "Dr.-Ing.",
+      "subject": "Computer Science",
+      "graduated": true
+    },
+    {
+      "date": "2012&mdash;2013",
+      "name": "University of Central Lancashire",
+      "degree": "Certificates",
+      "subject": "Astronomy/Cosmology",
+      "graduated": true
+    },
+    {
+      "date": "2011",
+      "name": "Business Tools AG",
+      "subject": "Project Management Course (6 <span title='Professional Development Units' class='tooltip'>PDUs</span>, Category 4)",
+      "graduated": true
+    },
+    {
+      "date": "2010&mdash;2012",
+      "name": "ETH Zurich",
+      "degree": "M.Sc.",
+      "subject": "Computer Science",
+      "graduated": true
+    },
+    {
+      "date": "2008&mdash;2010",
+      "name": "RWTH Aachen University",
+      "degree": "B.Sc.",
+      "subject": "Computer Science (minor in Business Administration)",
+      "graduated": true
+    }
+  ],
+  "skills": [
+    {
+      "name": "HCI",
+      "level": 3
+    },
+    {
+      "name": "Web Engineering",
+      "level": 3
+    },
+    {
+      "name": "CSS",
+      "level": 3
+    },
+    {
+      "name": "HTML",
+      "level": 3
+    },
+    {
+      "name": "Java",
+      "level": 3
+    },
+    {
+      "name": "JavaScript",
+      "level": 3
+    },
+    {
+      "name": "jQuery",
+      "level": 3
+    },
+    {
+      "name": "XML",
+      "level": 3
+    },
+    {
+      "name": "MySQL",
+      "level": 2
+    },
+    {
+      "name": "node.js",
+      "level": 2
+    },
+    {
+      "name": "PHP",
+      "level": 2
+    }
+  ],
+  "hobbies": [
+    "Astronomy",
+    "Cinema",
+    "Cosmology",
+    "Design",
+    "Literature",
+    "Music (Drums)",
+    "Poetry",
+    "Ringtennis",
+    "Table Football",
+    "Travel",
+    "Web Technologies",
+    "Writing"
+  ]
+}

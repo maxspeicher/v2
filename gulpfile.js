@@ -6,8 +6,8 @@ const data = require("gulp-data");
 const less = require("gulp-less");
 const nunjucksRender = require("gulp-nunjucks-render");
 
-const CONTENT_FILES = ["articles", "projects", "cv", "honors"];
-const SKILLS = ["design", "leadership", "management"];
+const CONTENT_FILES = ["articles", "projects", "work", "honors"];
+const SKILLS = ["design", "leadership", "management", "computer science", "ringtennis"];
 
 function compare(a,b) {
   if (a.dateInt < b.dateInt)
@@ -106,7 +106,6 @@ gulp.task("nunjucks", function() {
 
 gulp.task("watch", function() {
   gulp.watch("css/*.less", ["less"]);
-  gulp.watch(["test.nunjucks", "assets/*.json", "assets/*.nunjucks"], ["nunjucks"]);
   gulp.watch(["test.nunjucks", "assets/*.json", "assets/*.nunjucks"], ["nunjucks"]);
 });
 

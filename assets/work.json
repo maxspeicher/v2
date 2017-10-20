@@ -1,10 +1,10 @@
 {
-  "id": "cv",
-  "title": "Curriculum Vitae",
+  "id": "work",
+  "title": "Work",
   "entries": [
     {
       "date": "since 2017",
-      "dateInt": 2017,
+      "dateInt": 9999,
       "company": "University of Michigan",
       "title": "Research Fellow",
       "tags": ["design", "research", "leadership", "management"]
@@ -13,7 +13,7 @@
       "date": "2015&mdash;2017",
       "dateInt": 2015,
       "company": "bitstars GmbH",
-      "title": "Vice President of Customer & Data Analytics & Optimization",
+      "title": "VP of Customer & Data Analytics & Optimization",
       "tags": ["analytics", "ux", "leadership", "management"]
     },
     {
@@ -41,7 +41,7 @@
       "date": "2009&mdash;2010",
       "dateInt": 2009,
       "company": "GFIU mbH",
-      "title": "Student Assistant, Internet Business Development",
+      "title": "Student Assistant",
       "tags": ["design", "research"]
     }
   ],

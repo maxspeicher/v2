@@ -7,7 +7,7 @@
     {% endif %}
   </td>
   <td>
-    <span class="brtlyst-light">{{ company }}:</span> {{title}}<br />
+    {{title}} <span class="brtlyst-light brtlyst-smaller">{{ company }}</span><br />
     {% for tag in tags %}
       <span class="brtlyst-secondary tag tag-{{ tag }} tiny">#{{ tag }}</span>
     {% endfor %}
