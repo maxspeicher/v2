@@ -6,6 +6,9 @@ a,
 .brtlyst-secondary {
   color: gray;
 }
+.brtlyst-gray {
+  color: DimGray;
+}
 .brtlyst-highlight {
   color: DeepPink !important;
 }

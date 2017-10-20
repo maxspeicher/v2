@@ -7,7 +7,7 @@ const less = require("gulp-less");
 const nunjucksRender = require("gulp-nunjucks-render");
 
 const CONTENT_FILES = ["articles", "projects", "work", "honors"];
-const SKILLS = ["design", "leadership", "management", "computer science", "ringtennis"];
+const SKILLS = ["design", "leadership", "management", "computer science", "ringtennis", "startup", "ux", "analytics"];
 
 function compare(a,b) {
   if (a.dateInt < b.dateInt)
