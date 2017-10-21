@@ -1,0 +1,503 @@
+/****************/
+/*              */
+/*  NAVIGATION  */
+/*              */
+/****************/
+
+nav {
+  background-color: #222;
+  /*border-bottom: 1px #f5f5f5 solid;*/
+  height: 100%;
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  text-align: left;
+  text-transform: uppercase;
+  top: 0;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  width: 33%;
+  z-index: 99;
+}
+
+nav a {
+  border-bottom: 1px #333 solid;
+  color: #eee;
+  display: block;
+  padding: 2em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #333;
+  color: #eee;
+}
+
+nav img {
+  height: 1em;
+  vertical-align: text-top;
+}
+
+nav.shown {
+  -moz-transform: translateX(0);
+  -ms-transform: translateX(0);
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+
+nav.hidden {
+  -moz-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+#burger-icon {
+  /* background-color or mix-blend-mode? */
+  background-color: #222;
+  cursor: pointer;
+  height: 2em;
+  left: 0;
+  padding: 1em;
+  /* background-color or mix-blend-mode? */
+  /* Nov 2, 2016: mix-blend-mode doesn't work on dad's tablet */
+  /* mix-blend-mode: exclusion; */
+  position: fixed;
+  top: 0;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  width: 2em;
+  z-index: 98;
+}
+
+#burger-icon.active {
+  left: 33%;
+}
+
+#burger-icon .m, #burger-icon .m:before, #burger-icon .m:after {
+  background-color: #eee;
+  display: block;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  height: .4em;
+  width: 2em;
+}
+
+#burger-icon .m {
+  margin-top: .8em;
+}
+
+#burger-icon .m:before {
+  content: '';
+  -moz-transform: translateY(-.8em);
+  -ms-transform: translateY(-.8em);
+  -webkit-transform: translateY(-.8em);
+  transform: translateY(-.8em);
+}
+
+#burger-icon .m:after {
+  content: '';
+  -moz-transform: translateY(.4em);
+  -ms-transform: translateY(.4em);
+  -webkit-transform: translateY(.4em);
+  transform: translateY(.4em);
+}
+
+#burger-icon.active .m {
+  background-color: transparent;
+}
+
+#burger-icon.active .m:before {
+  -moz-transform: translateY(0em) rotate(45deg);
+  -ms-transform: translateY(0em) rotate(45deg);
+  -webkit-transform: translateY(0em) rotate(45deg);
+  transform: translateY(0em) rotate(45deg);
+}
+
+#burger-icon.active .m:after {
+  -moz-transform: translateY(-.4em) rotate(-45deg);
+  -ms-transform: translateY(-.4em) rotate(-45deg);
+  -webkit-transform: translateY(-.4em) rotate(-45deg);
+  transform: translateY(-.4em) rotate(-45deg);
+}
+
+@media screen and (max-width: 819px) {
+  nav {
+    width: 50%;
+  }
+
+  nav a {
+    padding: 1.83em;
+  }
+
+  #burger-icon.active {
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  nav {
+    width: calc(100% - 4em);
+  }
+
+  nav a {
+    padding: 1.67em;
+  }
+
+  #burger-icon.active {
+    left: calc(100% - 4em);
+  }
+}
+
+/*************/
+/*           */
+/*  GENERAL  */
+/*           */
+/*************/
+
+a {
+  color: #428bca;
+}
+
+a:hover, a:focus {
+  color: #2a6496;
+}
+
+body {
+  background-color: #f5f5f5;
+  color: #222;
+  font-family: 'Old Standard TT', sans-serif;
+  font-size: 1em;
+  font-weight: normal;
+  overflow-x: hidden;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #222;
+  color: #f5f5f5;
+  font-size: 0.67em;
+  padding: 1em;
+  position: relative;
+  text-align: center;
+  z-index: 98;
+}
+
+footer a {
+  color: #f5f5f5;
+  text-decoration: none;
+}
+
+footer a:hover, footer a:focus {
+  color: #f5f5f5;
+  text-decoration: underline;
+}
+
+footer, nav {
+  -moz-box-shadow: rgba(0,0,0,0.67) 0px 0px 15px;
+  -webkit-box-shadow: rgba(0,0,0,0.67) 0px 0px 15px;
+  box-shadow: rgba(0,0,0,0.67) 0px 0px 15px;
+}
+
+h1 {
+  font-size: 1em;
+  margin: 0;
+  padding: 1em 0 3em 0;
+  text-align: center;
+}
+
+h1 img {
+  height: 5em;
+}
+
+h1 span {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2.5em;
+  font-weight: 100;
+}
+
+h1, #intro, .content {
+  margin: 0px auto;
+  max-width: 40em;
+}
+
+h2 {
+  font-size: 1.33em;
+  font-variant: small-caps;
+  font-weight: normal;
+  margin: 0;
+  padding: 0.5em 0 0.5em 0;
+}
+
+li {
+  margin: 0 0 0.75em 0;
+}
+
+q:lang(en) {
+    font: inherit;
+    quotes: "“" "”" "‘" "’";
+}
+
+q:before {
+    content: open-quote;
+}
+
+q:after {
+    content: close-quote;
+}
+
+section {
+  -moz-box-shadow: rgba(0,0,0,0.67) 0px 0px 10px;
+  -webkit-box-shadow: rgba(0,0,0,0.67) 0px 0px 10px;
+  box-shadow: rgba(0,0,0,0.67) 0px 0px 10px;
+  padding: 3em 0 3em 0;
+  width: 100%;
+}
+
+section.first {
+  background: url('images/Hello-World.jpg') center / cover;
+}
+
+section:not(.first) {
+  position: relative;
+  z-index: 1;
+}
+
+section > video {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+section.nopadding {
+  padding: 0;
+}
+
+section:nth-of-type(even) {
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+section:nth-of-type(even) .separator {
+  background-color: #ddd;
+}
+
+section:nth-of-type(even) .tooltip {
+  border-bottom: 1px #222 dotted;
+  cursor: help;
+}
+
+section:nth-of-type(odd) {
+  background-color: #282828;
+  color: #f5f5f5;
+}
+
+section:nth-of-type(odd) .separator {
+  background-color: #383838;
+}
+
+section:nth-of-type(odd) .tooltip {
+  border-bottom: 1px #f5f5f5 dotted;
+  cursor: help;
+}
+
+/*section:nth-of-type(even) {
+  background-color: #282828;
+  color: #f5f5f5;
+}
+
+section:nth-of-type(even) .tooltip {
+  border-bottom: 1px #f5f5f5 dotted;
+  cursor: help;
+}
+
+section:nth-of-type(odd) {
+  background-color: #f5f5f5;
+  color: #222;
+}
+
+section:nth-of-type(odd) .tooltip {
+  border-bottom: 1px #222 dotted;
+  cursor: help;
+}*/
+
+td {
+  padding: 0 0.6em 0.6em 0;
+  vertical-align: top;
+}
+
+th {
+  padding: 0 0.6em 0.6em 0;
+  text-align: left;
+}
+
+ul {
+  list-style-type: square;
+}
+
+#intro {
+  font-size: 0.4em;
+  padding: 1em 3% 1em 3%;
+  text-align: left;
+}
+
+@media screen and (min-width: 560px) {
+  #intro {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 2.5em; /* Chrome, Safari, Opera */
+    -moz-column-gap: 2.5em; /* Firefox */
+    column-gap: 2.5em;
+    text-align: justify;
+  }
+}
+
+#made-with-love {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 200%;
+}
+
+#title-wrapper-outer {
+  display: table;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+#title-wrapper-inner {
+  display: table-cell;
+  font-size: 2.5em;
+  padding: 3% 0;
+  position: relative;
+  text-align: center;
+  -moz-text-shadow: 0 0 5px #000;
+  -webkit-text-shadow: 0 0 5px #000;
+  text-shadow: 0 0 5px #000;
+  vertical-align: middle;
+  z-index: 1;
+}
+
+#title-wrapper-inner img {
+  height: 3em;
+}
+
+#title-wrapper-inner a > .fa {
+  font-size: 0.75em;
+  padding: 0 0.2em;
+}
+
+.center {
+  text-align: center;
+}
+
+.content {
+  font-size: 1em;
+  padding: 0 3% 3% 3%;
+}
+
+.fa.large {
+  font-size: 1.875em;
+  padding: 0 0.2em;
+}
+
+.honor .fa {
+  color: #666;
+}
+
+.logo {
+  height: 4em;
+  max-width: 100%;
+}
+
+.nowrap {
+  text-align: right;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.project {
+  padding: .75em;
+  text-align: center;
+}
+
+.project a {
+  text-decoration: none;
+}
+
+.publication {
+  margin-bottom: 1em;
+}
+
+.separator {
+  height: .5em;
+  margin: 2.5em 0 .75em 0;
+  width: 3em;
+}
+
+.skill .fa-star {
+  color: #d35400;
+  cursor: default;
+}
+
+.skill-label {
+  background-color: #ccc;
+  -moz-box-shadow: 1px 1px #aaa;
+  -webkit-box-shadow: 1px 1px #aaa;
+  box-shadow: 1px 1px #aaa;
+  display: inline-block;
+  margin: 0 0.75em 0.75em 0;
+  padding: 0.2em;
+  width: 10em;
+}
+
+.smaller {
+  font-size: .5em;
+  font-weight: normal;
+}
+
+.special {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.tags {
+  color: #999;
+}
+
+.tags .fa-tags {
+  margin-right: .25em;
+}
+
+.textsc {
+  font-variant: small-caps;
+}
+
+[data-id='projects'] ul {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 1em;
+}
+
+[data-id='projects'] li {
+  color: #666;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+  text-indent: -.5em;
+}
+
+[data-id='projects'] li a {
+  text-decoration: none;
+}
