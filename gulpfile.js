@@ -6,7 +6,7 @@ const data = require("gulp-data");
 const less = require("gulp-less");
 const nunjucksRender = require("gulp-nunjucks-render");
 
-const CONTENT_FILES = ["articles", "projects", "work", "honors"];
+const CONTENT_FILES = ["articles", "projects", "work", "education", "honors"];
 const SKILLS = ["design", "leadership", "management", "computer science", "ringtennis", "startup", "ux", "analytics"];
 
 function compare(a,b) {

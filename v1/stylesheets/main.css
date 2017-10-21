@@ -266,7 +266,7 @@ section {
 }
 
 section.first {
-  background: url('images/Hello-World.jpg') center / cover;
+  background: url('../images/Hello-World.jpg') center / cover;
 }
 
 section:not(.first) {

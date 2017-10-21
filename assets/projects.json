@@ -3,6 +3,14 @@
   "title": "Selected Projects",
   "entries": [
     {
+      "date": "2013&ndash;2017",
+      "dateInt": 2017,
+      "name": "MaxSpeicher.com v1",
+      "link": "http://www.maxspeicher.com/v1",
+      "type": "own",
+      "tags": ["design", "programming"]
+    },
+    {
       "date": "2016",
       "dateInt": 2016,
       "name": "The U Score",
@@ -20,7 +28,7 @@
     },
     {
       "date": "2015&ndash;2017",
-      "dateInt": 2015,
+      "dateInt": 2017,
       "name": "HoloBuilder",
       "link": "https://www.holobuilder.com/",
       "type": "contribution",
@@ -36,7 +44,7 @@
     },
     {
       "date": "2013&ndash;2016",
-      "dateInt": 2013,
+      "dateInt": 2016,
       "name": "Search Interaction Optimization",
       "link": "/phdthesis",
       "type": "own",
@@ -44,14 +52,14 @@
     },
     {
       "date": "2012&ndash;2014",
-      "dateInt": 2012,
+      "dateInt": 2014,
       "name": "BlueKiwi",
       "type": "contribution",
       "tags": []
     },
     {
       "date": "2011&ndash;2012",
-      "dateInt": 2011,
+      "dateInt": 2012,
       "name": "W3Touch",
       "link": "http://dev.globis.ethz.ch/w3touch/",
       "type": "contribution",
@@ -98,7 +106,7 @@
     },
     {
       "date": "2008&ndash;2010",
-      "dateInt": 2008,
+      "dateInt": 2010,
       "name": "The Modern Web Design Awards",
       "type": "own",
       "tags": []
