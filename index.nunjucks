@@ -35,7 +35,7 @@
       <a id="top" name="top"></a>
     </section>
     <section class="skills">
-      {% for skill in skills %}<a class="skills-skill brtlyst-link--highlighted" href="#" name="{{ skill }}"><span class="brtlyst-thin">#</span>{{ skill }}</a>{% endfor %}
+      {% for skill in skills %}<a class="skills-skill brtlyst-link--highlighted" href="#" name="{{ skill | replace("/", "-") | replace(" ", "-") }}"><span class="brtlyst-thin">#</span>{{ skill }}</a>{% endfor %}
       <div class="space-10px"></div>
       <a href="#" class="arrangement brtlyst-link--highlighted" name="by-category">
         <span class="brtlyst-thin">arrange by</span> category
@@ -58,6 +58,7 @@
     <section id="by-skill" class="container">
       {% for skill, entries in content.skills %}
         {% if entries.length > 0 %}
+          <a id="{{ skill | replace("/", "-") | replace(" ", "-") }}" name="{{ skill | replace("/", "-") | replace(" ", "-") }}"></a>
           <h2>#{{ skill }}</h2>
           <table border="0">
             {% for entry in entries %}

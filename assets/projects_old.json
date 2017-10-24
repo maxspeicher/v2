@@ -82,6 +82,22 @@
       "tags": ["crowdsourcing", "research", "usability", "UX"]
     },
     {
+      "date": "2011",
+      "dateInt": 2011,
+      "name": "jQMultiTouch",
+      "link": "https://github.com/globis-ethz/jqmultitouch",
+      "type": "contribution",
+      "tags": ["programming", "research"]
+    },
+    {
+      "date": "2011",
+      "dateInt": 2011,
+      "name": "XQuery on Android",
+      "link": "https://sites.google.com/site/mxqueryandroid/",
+      "type": "contribution",
+      "tags": ["programming", "research"]
+    },
+    {
       "date": "2009&ndash;2010",
       "dateInt": 2010,
       "name": "SoftwareKaufen.de",

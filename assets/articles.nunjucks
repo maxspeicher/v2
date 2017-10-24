@@ -1,4 +1,4 @@
-<tr class="entry {% for tag in tags %}entry-{{ tag }} {% endfor %}">
+<tr class="entry {% for tag in tags %}entry-{{ tag | replace("/", "-") | replace(" ", "-") }} {% endfor %}">
   <td class="align-right nowrap">
     {{ date | safe }}
     {% if category %}
@@ -9,7 +9,7 @@
   <td>
     <a href="{{ link }}" target="_blank" class="brtlyst-light">{{ title }}</a><br />
     {% for tag in tags %}
-      <span class="brtlyst-secondary tag tag-{{ tag }} tiny">#{{ tag }}</span>
+      <span class="brtlyst-secondary tag tag-{{ tag | replace("/", "-") | replace(" ", "-") }} tiny">#{{ tag }}</span>
     {% endfor %}
   </td>
 </tr>

@@ -11,7 +11,7 @@
     },
     {
       "type": "trophy",
-      "description": "German Champion in Ringtennis",
+      "description": "German Champion",
       "info": "Men's Alternating Doubles",
       "dateInt": 2016,
       "tags": ["ringtennis"]
@@ -25,14 +25,14 @@
     },
     {
       "type": "trophy",
-      "description": "German Champion in Ringtennis",
+      "description": "German Champion",
       "info": "Men's Doubles",
       "dateInt": 2014,
       "tags": ["ringtennis"]
     },
     {
       "type": "trophy",
-      "description": "World Team Champion in Ringtennis",
+      "description": "World Team Champion",
       "location": "Vereeniging, South Africa",
       "dateInt": 2014,
       "tags": ["ringtennis"]
@@ -42,25 +42,25 @@
       "description": "Industrial Ph.D. Scholarship",
       "info": "Sächsische Aufbaubank (SAB)",
       "dateInt": 2013,
-      "tags": ["computer science", "research"]
+      "tags": ["computer science", "research", "PhD"]
     },
     {
       "type": "certificate",
       "description": "Excellence Scholarship",
       "info": "ETH Zurich",
       "dateInt": 2011,
-      "tags": ["computer science"]
+      "tags": ["computer science", "MSc"]
     },
     {
       "type": "trophy",
-      "description": "German Champion in Ringtennis",
+      "description": "German Champion",
       "info": "Men's Alternating Doubles",
       "dateInt": 2011,
       "tags": ["ringtennis"]
     },
     {
       "type": "trophy",
-      "description": "German Team Champion in Ringtennis",
+      "description": "German Team Champion",
       "dateInt": 2011,
       "tags": ["ringtennis"]
     },
@@ -69,18 +69,18 @@
       "description": "Dean's List (Top 3%)",
       "info": "RWTH Aachen University",
       "dateInt": 2010,
-      "tags": ["computer science"]
+      "tags": ["computer science", "BSc"]
     },
     {
       "type": "certificate",
       "description": "Dean's List (Top 3%)",
       "info": "RWTH Aachen University",
       "dateInt": 2009,
-      "tags": ["computer science"]
+      "tags": ["computer science", "BSc"]
     },
     {
       "type": "trophy",
-      "description": "German Champion in Ringtennis",
+      "description": "German Champion",
       "info": "Men's Singles",
       "dateInt": 2008,
       "tags": ["ringtennis"]
@@ -94,14 +94,14 @@
     },
     {
       "type": "trophy",
-      "description": "German Champion in Ringtennis",
+      "description": "German Champion",
       "info": "Mixed Doubles",
       "dateInt": 2007,
       "tags": ["ringtennis"]
     },
     {
       "type": "trophy",
-      "description": "World Team Champion in Ringtennis",
+      "description": "World Team Champion",
       "location": "Chennai, India",
       "dateInt": 2006,
       "tags": ["ringtennis"]

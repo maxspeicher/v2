@@ -6,8 +6,10 @@ const data = require("gulp-data");
 const less = require("gulp-less");
 const nunjucksRender = require("gulp-nunjucks-render");
 
-const CONTENT_FILES = ["articles", "projects", "work", "education", "honors"];
-const SKILLS = ["design", "leadership", "management", "computer science", "ringtennis", "startup", "ux", "analytics"];
+const CONTENT_FILES = ["articles", "projects", "work", "education", "honors", "publications"];
+
+const SKILLS = ["design", "leadership", "management", "UX", "usability", "startup", "e-commerce",
+                "AR/VR", "analytics", "computer science", "research", "ringtennis"];
 
 function compare(a,b) {
   if (a.dateInt < b.dateInt)
@@ -92,7 +94,7 @@ gulp.task("nunjucks", function() {
     content.skills.other.push(skillsTemp.other[i].entry);
   }
 
-  return gulp.src("test.nunjucks")
+  return gulp.src("index.nunjucks")
     .pipe(data(function() {
       return {
         categories: CONTENT_FILES,
@@ -106,7 +108,7 @@ gulp.task("nunjucks", function() {
 
 gulp.task("watch", function() {
   gulp.watch("css/*.less", ["less"]);
-  gulp.watch(["test.nunjucks", "assets/*.json", "assets/*.nunjucks"], ["nunjucks"]);
+  gulp.watch(["index.nunjucks", "assets/*.json", "assets/*.nunjucks"], ["nunjucks"]);
 });
 
 gulp.task("default", ["watch", "less", "nunjucks"]);

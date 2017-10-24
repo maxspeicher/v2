@@ -21,14 +21,6 @@
       "tags": ["astronomy", "cosmology"]
     },
     {
-      "date": "2011",
-      "dateInt": 2011,
-      "name": "Business Tools AG",
-      "subject": "Project Management Course (6 PDUs, Category 4)",
-      "graduated": true,
-      "tags": ["management"]
-    },
-    {
       "date": "2010&mdash;2012",
       "dateInt": 2012,
       "name": "ETH Zurich",
@@ -36,6 +28,14 @@
       "subject": "Computer Science",
       "graduated": true,
       "tags": ["computer science"]
+    },
+    {
+      "date": "2011",
+      "dateInt": 2011,
+      "name": "Business Tools AG",
+      "subject": "Project Management Course (6 PDUs, Category 4)",
+      "graduated": true,
+      "tags": ["management"]
     },
     {
       "date": "2008&mdash;2010",

@@ -11,7 +11,9 @@
       const name = $(this).attr("name");
       $(".tag-" + name).addClass("brtlyst-highlight");
     }).on("mouseout click", function() {
-      $(".tag").removeClass("brtlyst-highlight");
+      if (!activeSkill) {
+        $(".tag").removeClass("brtlyst-highlight");
+      }
     });
     
     // highlight possibilities for arrangement
@@ -25,6 +27,10 @@
       $(".tag").addClass("brtlyst-highlight");
     }).on("mouseout click", function() {
       $(".tag").removeClass("brtlyst-highlight");
+
+      if (activeSkill) {
+        $(".tag-" + activeSkill).addClass("brtlyst-highlight");
+      }
     });
       
     // filter by skill
@@ -35,14 +41,20 @@
       
       $(".entry").removeClass("hidden");
       $(".skills-skill").removeClass("skills-skill--dehighlighted");
+      $(".tag").removeClass("brtlyst-highlight");
 
       if (name === activeSkill) {
         activeSkill = "";
       } else {
         $(".entry:not(.entry-" + name + ")").addClass("hidden");
         $(".skills-skill:not([name='" + name + "'])").addClass("skills-skill--dehighlighted");
+        $(".tag-" + name).addClass("brtlyst-highlight");
 
         activeSkill = name;
+
+        if (activeArrangement === "by-skill") {
+          location.href = "#" + name;
+        }
       }
     });
     

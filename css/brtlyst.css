@@ -33,8 +33,14 @@ a.brtlyst-icon:hover {
   color: DeepPink;
   text-decoration: none;
 }
+.brtlyst-sc {
+  font-variant: small-caps;
+}
 .brtlyst-smaller {
   font-size: 80%;
+}
+.brtlyst-standard {
+  color: black;
 }
 .brtlyst-thin {
   font-weight: 200;

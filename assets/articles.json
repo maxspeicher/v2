@@ -5,9 +5,16 @@
     {
       "date": "2017",
       "dateInt": 2017,
+      "link": "https://medium.com/@maxspeicher/the-conversion-usability-framework-3e2068edebbc",
+      "title": "The Conversion/Usability Framework: How Usability Impacts Profit",
+      "tags": ["business", "e-commerce", "usability"]
+    },
+    {
+      "date": "2017",
+      "dateInt": 2017,
       "link": "https://medium.com/startupsco/how-to-data-analytics-in-a-start-up-f801d0ccf5d2",
       "title": "How to Data Analytics (in a Start-up)",
-      "tags": ["analytics", "management", "startup", "ux"]
+      "tags": ["analytics", "management", "startup", "UX"]
     },
     {
       "date": "2016",
@@ -28,7 +35,7 @@
       "dateInt": 2016,
       "link": "https://medium.com/@maxspeicher/lean-support-the-case-of-holobuilder-7bb74bdcf1f4",
       "title": "Lean Support",
-      "tags": ["startup", "ux"]
+      "tags": ["startup", "UX"]
     },
     {
       "date": "2014",

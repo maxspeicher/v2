@@ -4,6 +4,16 @@
   "entries": [
     {
       "type": "inproceedings",
+      "authors": ["Maximilian Speicher", "Andreas Both", "Martin Gaedke"],
+      "title": "REFOCUS: Current and Future Search Interface Requirements for German-speaking Users",
+      "booktitle": "Proc. ICWI",
+      "dateInt": 2016,
+      "link": "http://iadisportal.org/digital-library/refocus-current-future-search-interface-requirements-for-german-speaking-users",
+      "pdf": "https://www.researchgate.net/publication/309529749",
+      "tags": ["full paper", "ICWI", "design", "search engine", "usability", "UX"]
+    },
+    {
+      "type": "inproceedings",
       "authors": ["Daniela Antkowiak", "Christian Kohlschein", "Roksaneh Krooß", "Maximilian Speicher", "Tobias Meisen", "Sabina Jeschke", "Cornelius Werner"],
       "title": "Language Therapy of Aphasia Supported by Augmented Reality Applications",
       "booktitle": "Proc. IEEE Healthcom",
@@ -11,7 +21,7 @@
       "dateInt": 2016,
       "link": "http://ieeexplore.ieee.org/abstract/document/7749511/",
       "pdf": "https://www.researchgate.net/publication/309516479",
-      "tags": ["full paper", "Healthcom", "AR/VR", "research"]
+      "tags": ["full paper", "Healthcom", "AR"]
     },
     {
       "type": "inproceedings",
@@ -21,7 +31,7 @@
       "dateInt": 2015,
       "link": "http://subs.emis.de/LNI/Proceedings/Proceedings246/article9.html",
       "pdf": "https://www.researchgate.net/publication/282293186",
-      "tags": ["full paper", "INFORMATIK", "AR/VR", "design", "industry 4.0", "startup", "research"]
+      "tags": ["full paper", "INFORMATIK", "AR", "industry 4.0"]
     },
     {
       "type": "article",
@@ -34,7 +44,7 @@
       "dateInt": 2015,
       "link": "http://www.rintonpress.com/journals/jweonline.html#v14n56",
       "pdf": "http://www.rintonpress.com/xjwe14/jwe-14-56/386-413.pdf",
-      "tags": ["journal article", "JWE", "interaction", "machine learning", "search engine", "research"]
+      "tags": ["journal article", "JWE", "interaction", "machine learning", "search engine"]
     },
     {
       "type": "inproceedings",
@@ -44,7 +54,7 @@
       "dateInt": 2015,
       "link": "http://dx.doi.org/10.1007/978-3-319-20886-2_25",
       "pdf": "https://www.researchgate.net/publication/282441105",
-      "tags": ["full paper", "DUXU", "usability", "research"]
+      "tags": ["full paper", "DUXU", "usability"]
     },
     {
       "type": "inproceedings",
@@ -56,7 +66,7 @@
       "coreRating": "A*",
       "link": "http://dl.acm.org/citation.cfm?id=2702568",
       "pdf": "https://www.researchgate.net/publication/282441131",
-      "tags": ["full paper", "CHI", "honorable mention", "design", "search engine", "usability", "research"]
+      "tags": ["full paper", "CHI", "honorable mention", "design", "search engine", "usability"]
     },
     {
       "type": "techreport",
@@ -67,7 +77,7 @@
       "dateInt": 2015,
       "link": "https://www.tu-chemnitz.de/informatik/service/ib/2015.php.en",
       "pdf": "https://www.tu-chemnitz.de/informatik/service/ib/pdf/CSR-15-02.pdf",
-      "tags": ["technical report", "usability", "research"]
+      "tags": ["technical report", "usability"]
     },
     {
       "type": "inproceedings",
@@ -79,7 +89,7 @@
       "acceptanceRate": "37%",
       "link": "http://dl.acm.org/citation.cfm?id=2660517.2660528",
       "pdf": "http://svn.aksw.org/papers/2014/SEMANTiCS_architecture/public.pdf",
-      "tags": ["full paper", "SEMANTiCS", "search engine", "semantic web", "research"]
+      "tags": ["full paper", "SEMANTiCS", "search engine", "semantic web"]
     },
     {
       "type": "inproceedings",
@@ -91,7 +101,7 @@
       "coreRating": "B",
       "link": "http://link.springer.com/chapter/10.1007/978-3-319-08245-5_6",
       "pdf": "https://www.researchgate.net/publication/271269916",
-      "tags": ["full paper", "ICWE", "interaction", "machine learning", "usability", "research"]
+      "tags": ["full paper", "ICWE", "interaction", "machine learning", "usability"]
     },
     {
       "type": "inproceedings",
@@ -103,7 +113,7 @@
       "coreRating": "B",
       "link": "http://link.springer.com/chapter/10.1007/978-3-319-08245-5_16",
       "pdf": "https://www.researchgate.net/publication/263167518",
-      "tags": ["full paper", "ICWE", "interaction", "machine learning", "search engine", "research"]
+      "tags": ["full paper", "ICWE", "interaction", "machine learning", "search engine"]
     },
     {
       "type": "inproceedings",
@@ -114,7 +124,18 @@
       "coreRating": "B",
       "link": "http://link.springer.com/chapter/10.1007/978-3-319-08245-5_47",
       "pdf": "https://www.researchgate.net/publication/271269917",
-      "tags": ["demo", "ICWE", "interaction", "machine learning", "usability", "research"]
+      "tags": ["demo", "ICWE", "interaction", "machine learning", "usability"]
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Maximilian Speicher"],
+      "title": "Paving the Path to Content-centric and Device-agnostic Web Design",
+      "booktitle": "Proc. ICWE (Posters)",
+      "dateInt": 2014,
+      "coreRating": "B",
+      "link": "http://link.springer.com/chapter/10.1007/978-3-319-08245-5_44",
+      "pdf": "https://www.researchgate.net/publication/282440341",
+      "tags": ["poster", "ICWE", "design", "usability", "UX"]
     },
     {
       "type": "inproceedings",
@@ -126,7 +147,38 @@
       "coreRating": "A",
       "link": "http://dl.acm.org/citation.cfm?id=2505703",
       "pdf": "https://www.researchgate.net/publication/262312351",
-      "tags": ["full paper", "CIKM", "interaction", "machine learning", "search engine", "research"]
+      "tags": ["full paper", "CIKM", "interaction", "machine learning", "search engine"]
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Michael Röder", "Maximilian Speicher", "Ricardo Usbeck"],
+      "title": "Investigating Quality Raters' Performance Using Interface Evaluation Methods",
+      "booktitle": "Proc. INFORMATIK (Posters)",
+      "dateInt": 2013,
+      "link": "http://www.gi.de/service/publikationen/lni/gi-edition-proceedings-2013/gi-edition-lecture-notes-in-informatics-lni-p-220.html",
+      "pdf": "https://www.researchgate.net/publication/256976967",
+      "tags": ["poster", "INFORMATIK", "interaction", "semantic web"]
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Maximilian Speicher", "Andreas Both", "Martin Gaedke"],
+      "title": "Towards Metric-based Usability Evaluation of Online Web Interfaces",
+      "booktitle": "Mensch & Computer Workshopband",
+      "dateInt": 2013,
+      "link": "http://dl.mensch-und-computer.de/handle/123456789/3399",
+      "pdf": "https://www.researchgate.net/publication/271269915",
+      "tags": ["workshop paper", "M&C", "usability"]
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Maximilian Speicher", "Andreas Both", "Martin Gaedke"],
+      "title": "Was that Webpage Pleasant to Use? Predicting Usability Quantitatively from Interactions",
+      "booktitle": "ICWE Workshops",
+      "dateInt": 2013,
+      "coreRating": "C",
+      "link": "http://link.springer.com/chapter/10.1007/978-3-319-04244-2_33",
+      "pdf": "https://www.researchgate.net/publication/249009509",
+      "tags": ["workshop paper", "ICWE", "interaction", "usability"]
     },
     {
       "type": "inproceedings",
@@ -138,7 +190,7 @@
       "coreRating": "A*",
       "link": "http://doi.acm.org/10.1145/2470654.2481319",
       "pdf": "https://globis.ethz.ch/#!/publications/?tags%5B%5D=nebeling&abstract=362",
-      "tags": ["full paper", "CHI", "crowdsourcing", "usability", "UX", "research"]
+      "tags": ["full paper", "CHI", "crowdsourcing", "usability", "UX"]
     },
     {
       "type": "inproceedings",
@@ -149,7 +201,7 @@
       "acceptanceRate": "23%",
       "link": "http://doi.acm.org/10.1145/2480296.2480304",
       "pdf": "https://globis.ethz.ch/#!/publications/?tags%5B%5D=nebeling&abstract=365",
-      "tags": ["full paper", "EICS", "crowdsourcing", "usability", "UX", "research"]
+      "tags": ["full paper", "EICS", "crowdsourcing", "usability", "UX"]
     },
     {
       "type": "inproceedings",
@@ -160,7 +212,18 @@
       "acceptanceRate": "23%",
       "link": "http://doi.acm.org/10.1145/2480296.2480303",
       "pdf": "https://globis.ethz.ch/#!/publications/?tags%5B%5D=nebeling&abstract=366",
-      "tags": ["full paper", "EICS", "crowdsourcing", "usability", "UX", "research"]
+      "tags": ["full paper", "EICS", "crowdsourcing", "usability", "UX"]
+    },
+    {
+      "type": "inproceedings",
+      "authors": ["Michael Nebeling", "Maximilian Speicher", "Michael Grossniklaus", "Moira C. Norrie"],
+      "title": "Crowdsourced Web Site Evaluation with CrowdStudy",
+      "booktitle": "Proc. ICWE (Demos)",
+      "dateInt": 2012,
+      "coreRating": "C",
+      "link": "http://dx.doi.org/10.1007/978-3-642-31753-8_52",
+      "pdf": "https://globis.ethz.ch/#!/publications/?tags%5B%5D=nebeling&abstract=349",
+      "tags": ["demo", "ICWE", "crowdsourcing", "usability", "UX"]
     }
   ]
 }
