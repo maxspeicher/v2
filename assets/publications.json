@@ -44,7 +44,7 @@
       "dateInt": 2015,
       "link": "http://dx.doi.org/10.1007/978-3-319-20886-2_25",
       "pdf": "https://www.researchgate.net/publication/282441105",
-      "tags": ["full paper", "DUXU", "usability", "research"]
+      "tags": ["full paper", "DUXU", "usability/UX", "research"]
     },
     {
       "type": "inproceedings",
@@ -56,7 +56,7 @@
       "coreRating": "A*",
       "link": "http://dl.acm.org/citation.cfm?id=2702568",
       "pdf": "https://www.researchgate.net/publication/282441131",
-      "tags": ["full paper", "CHI", "honorable mention", "design", "search engine", "usability", "research"]
+      "tags": ["full paper", "CHI", "honorable mention", "design", "search engine", "usability/UX", "research"]
     },
     {
       "type": "techreport",
@@ -67,7 +67,7 @@
       "dateInt": 2015,
       "link": "https://www.tu-chemnitz.de/informatik/service/ib/2015.php.en",
       "pdf": "https://www.tu-chemnitz.de/informatik/service/ib/pdf/CSR-15-02.pdf",
-      "tags": ["technical report", "usability", "research"]
+      "tags": ["technical report", "usability/UX", "research"]
     },
     {
       "type": "inproceedings",
@@ -91,7 +91,7 @@
       "coreRating": "B",
       "link": "http://link.springer.com/chapter/10.1007/978-3-319-08245-5_6",
       "pdf": "https://www.researchgate.net/publication/271269916",
-      "tags": ["full paper", "ICWE", "interaction", "machine learning", "usability", "research"]
+      "tags": ["full paper", "ICWE", "interaction", "machine learning", "usability/UX", "research"]
     },
     {
       "type": "inproceedings",
@@ -114,7 +114,7 @@
       "coreRating": "B",
       "link": "http://link.springer.com/chapter/10.1007/978-3-319-08245-5_47",
       "pdf": "https://www.researchgate.net/publication/271269917",
-      "tags": ["demo", "ICWE", "interaction", "machine learning", "usability", "research"]
+      "tags": ["demo", "ICWE", "interaction", "machine learning", "usability/UX", "research"]
     },
     {
       "type": "inproceedings",
@@ -138,7 +138,7 @@
       "coreRating": "A*",
       "link": "http://doi.acm.org/10.1145/2470654.2481319",
       "pdf": "https://globis.ethz.ch/#!/publications/?tags%5B%5D=nebeling&abstract=362",
-      "tags": ["full paper", "CHI", "crowdsourcing", "usability", "UX", "research"]
+      "tags": ["full paper", "CHI", "crowdsourcing", "usability/UX", "research"]
     },
     {
       "type": "inproceedings",
@@ -149,7 +149,7 @@
       "acceptanceRate": "23%",
       "link": "http://doi.acm.org/10.1145/2480296.2480304",
       "pdf": "https://globis.ethz.ch/#!/publications/?tags%5B%5D=nebeling&abstract=365",
-      "tags": ["full paper", "EICS", "crowdsourcing", "usability", "UX", "research"]
+      "tags": ["full paper", "EICS", "crowdsourcing", "usability/UX", "research"]
     },
     {
       "type": "inproceedings",
@@ -160,7 +160,7 @@
       "acceptanceRate": "23%",
       "link": "http://doi.acm.org/10.1145/2480296.2480303",
       "pdf": "https://globis.ethz.ch/#!/publications/?tags%5B%5D=nebeling&abstract=366",
-      "tags": ["full paper", "EICS", "crowdsourcing", "usability", "UX", "research"]
+      "tags": ["full paper", "EICS", "crowdsourcing", "usability/UX", "research"]
     }
   ]
 }

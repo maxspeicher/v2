@@ -8,7 +8,7 @@ const nunjucksRender = require("gulp-nunjucks-render");
 
 const CONTENT_FILES = ["articles", "projects", "work", "education", "honors", "publications"];
 
-const SKILLS = ["design", "leadership", "management", "UX", "usability", "startup", "e-commerce",
+const SKILLS = ["design", "leadership", "management", "usability/UX", "startup", "e-commerce",
                 "AR/VR", "analytics", "computer science", "research", "ringtennis"];
 
 function compare(a,b) {

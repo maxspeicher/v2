@@ -24,6 +24,9 @@ td {
   vertical-align: top;
 }
 /* CLASSES */
+.align-center {
+  text-align: center;
+}
 .align-right {
   text-align: right;
 }

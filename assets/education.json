@@ -3,16 +3,16 @@
   "title": "Education",
   "entries": [
     {
-      "date": "2013&mdash;2016",
+      "date": "2013&ndash;2016",
       "dateInt": 2016,
       "name": "Chemnitz University of Technology",
       "degree": "Dr.-Ing.",
       "subject": "Computer Science",
       "graduated": true,
-      "tags": ["computer science", "research"]
+      "tags": ["computer science", "design", "research", "PhD"]
     },
     {
-      "date": "2012&mdash;2013",
+      "date": "2012&ndash;2013",
       "dateInt": 2013,
       "name": "University of Central Lancashire",
       "degree": "Certificates",
@@ -21,13 +21,13 @@
       "tags": ["astronomy", "cosmology"]
     },
     {
-      "date": "2010&mdash;2012",
+      "date": "2010&ndash;2012",
       "dateInt": 2012,
       "name": "ETH Zurich",
-      "degree": "M.Sc.",
+      "degree": "M.Sc. ETH Inf.-Ing.",
       "subject": "Computer Science",
       "graduated": true,
-      "tags": ["computer science"]
+      "tags": ["computer science", "MSc"]
     },
     {
       "date": "2011",
@@ -38,13 +38,13 @@
       "tags": ["management"]
     },
     {
-      "date": "2008&mdash;2010",
+      "date": "2008&ndash;2010",
       "dateInt": 2010,
       "name": "RWTH Aachen University",
-      "degree": "B.Sc.",
+      "degree": "B.Sc. RWTH",
       "subject": "Computer Science (minor in Business Administration)",
       "graduated": true,
-      "tags": ["computer science", "management"]
+      "tags": ["computer science", "management", "BSc"]
     }
   ]
 }

@@ -10,35 +10,35 @@
       "tags": ["AR/VR", "design", "leadership", "management", "research"]
     },
     {
-      "date": "2015&mdash;2017",
+      "date": "2015&ndash;2017",
       "dateInt": 2017,
       "company": "bitstars GmbH",
       "title": "VP of Customer & Data Analytics & Optimization",
-      "tags": ["AR/VR", "analytics", "design", "e-commerce", "leadership", "management", "startup", "usability", "UX"]
+      "tags": ["AR/VR", "analytics", "design", "e-commerce", "leadership", "management", "startup", "usability/UX"]
     },
     {
-      "date": "2013&mdash;2014",
+      "date": "2013&ndash;2014",
       "dateInt": 2014,
       "company": "R&D, Unister GmbH",
       "title": "Researcher (Industrial Ph.D. Student)",
-      "tags": ["design", "e-commerce", "research", "usability"]
+      "tags": ["analytics", "design", "e-commerce", "research", "usability/UX"]
     },
     {
       "date": "2012",
       "dateInt": 2012,
       "company": "R&D, Unister GmbH",
       "title": "Intern",
-      "tags": ["design", "e-commerce", "research", "usability"]
+      "tags": ["analytics", "design", "e-commerce", "research", "usability/UX"]
     },
     {
-      "date": "2010&mdash;2011",
+      "date": "2010&ndash;2011",
       "dateInt": 2011,
       "company": "ETH Zurich",
       "title": "Student Assistant",
-      "tags": ["design", "programming", "research", "usability", "UX"]
+      "tags": ["programming", "research", "usability/UX"]
     },
     {
-      "date": "2009&mdash;2010",
+      "date": "2009&ndash;2010",
       "dateInt": 2010,
       "company": "GFIU mbH",
       "title": "Student Assistant",
@@ -47,14 +47,14 @@
   ],
   "education": [
     {
-      "date": "2013&mdash;2016",
+      "date": "2013&ndash;2016",
       "name": "Chemnitz University of Technology",
       "degree": "Dr.-Ing.",
       "subject": "Computer Science",
       "graduated": true
     },
     {
-      "date": "2012&mdash;2013",
+      "date": "2012&ndash;2013",
       "name": "University of Central Lancashire",
       "degree": "Certificates",
       "subject": "Astronomy/Cosmology",
@@ -67,14 +67,14 @@
       "graduated": true
     },
     {
-      "date": "2010&mdash;2012",
+      "date": "2010&ndash;2012",
       "name": "ETH Zurich",
       "degree": "M.Sc.",
       "subject": "Computer Science",
       "graduated": true
     },
     {
-      "date": "2008&mdash;2010",
+      "date": "2008&ndash;2010",
       "name": "RWTH Aachen University",
       "degree": "B.Sc.",
       "subject": "Computer Science (minor in Business Administration)",

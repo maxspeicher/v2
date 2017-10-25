@@ -12,9 +12,9 @@
   <body>
     <section>
       <h1>Max<span class="brtlyst-gray">imilian</span> Speicher</h1>
-      <a href="https://www.linkedin.com/in/maximilianspeicher/en" class="brtlyst-icon">LinkedIn</a>
-      <a href="https://medium.com/@maxspeicher" class="brtlyst-icon">Medium</a>
-      <a href="https://2008.maxspeicher.com/" class="brtlyst-icon">WordPress</a>
+      <a href="https://www.linkedin.com/in/maximilianspeicher/en" target="_blank" class="brtlyst-icon">LinkedIn</a>
+      <a href="https://medium.com/@maxspeicher" target="_blank" class="brtlyst-icon">Medium</a>
+      <a href="https://2008.maxspeicher.com/" target="_blank" class="brtlyst-icon">WordPress</a>
     </section>
     <section class="intro brtlyst-light">
       As a <span class="brtlyst-regular">designer</span> &amp; <span class="brtlyst-regular">computer scientist</span>, I believe that any issue can be expressed as an interface problem &amp; tackled through appropriate human-centered methods.
@@ -27,7 +27,7 @@
         During my Industrial PhD at Unister GmbH, I created a human-centered methodology &amp; toolkit for providing more usable search engines.
         <br /><br />
         Also, I am the men's captain of the Germany national Ringtennis team.
-        I &#x2764; minimalism &amp; typography.
+        I <span class="brtlyst-highlight">&#x2764;</span> minimalism &amp; typography.
       </div>
       <a id="top" name="top"></a>
     </section>
@@ -64,6 +64,9 @@
           </table>
         {% endif %}
       {% endfor %}
+    </section>
+    <section class="align-center brtlyst-thin">
+      Made with <span class="brtlyst-highlight">&#x2764;</span> in Ann Arbor. This website has a <a href="http://theuscore.maxspeicher.com/?s=ttfttfififittffttffiiffftittttttttf&p=81" target="_blank">U Score of <span class="brtlyst-regular">81</span></a>.
     </section>
     <a href="#top" class="top-link">#top</a>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

@@ -7,7 +7,7 @@
     {% endif %}
   </td>
   <td>
-    <a href="{{ pdf }}" class="brtlyst-light">{{ title | safe }}</a>
+    <a href="{{ pdf }}" target="_blank" class="brtlyst-light">{{ title | safe }}</a>
     <span class="brtlyst-light brtlyst-smaller brtlyst-gray">{% for author in authors %}{% if loop.index > 1 %}, {% endif %}{% if loop.index == loop.length and loop.length > 1 %}and {% endif %}{% if author == "Maximilian Speicher" %}<span class="brtlyst-standard">{{ author }}</span>{% else %}{{ author }}{% endif %}{% endfor %}</span>
     <br />
     {% for tag in tags %}

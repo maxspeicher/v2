@@ -1,6 +1,6 @@
 {
   "id": "projects",
-  "title": "Selected Projects",
+  "title": "Projects",
   "entries": [
     {
       "date": "2017",
@@ -8,7 +8,7 @@
       "name": "XD-AR",
       "link": "https://www.mi2lab.com/research/",
       "type": "contribution",
-      "tags": ["AR/VR", "HoloLens", "research", "Tango"]
+      "tags": ["AR/VR", "research"]
     },
     {
       "date": "2013&ndash;2017",
@@ -24,7 +24,7 @@
       "name": "The U Score",
       "link": "http://theuscore.maxspeicher.com/",
       "type": "own",
-      "tags": ["design", "programming", "research", "usability"]
+      "tags": ["design", "programming", "research", "usability/UX"]
     },
     {
       "date": "2015&ndash;2017",
@@ -32,7 +32,7 @@
       "name": "HoloBuilder",
       "link": "https://www.holobuilder.com/",
       "type": "contribution",
-      "tags": ["analytics", "AR/VR", "design", "e-commerce", "programming", "startup", "UX"]
+      "tags": ["analytics", "AR/VR", "design", "e-commerce", "programming", "startup", "usability/UX"]
     },
     {
       "date": "since 2014",
@@ -48,14 +48,14 @@
       "name": "Search Interaction Optimization",
       "link": "/phdthesis",
       "type": "own",
-      "tags": ["design", "e-commerce", "PhD", "research", "usability", "UX"]
+      "tags": ["analytics", "design", "e-commerce", "PhD", "research", "usability/UX"]
     },
     {
       "date": "2012&ndash;2014",
       "dateInt": 2014,
       "name": "BlueKiwi",
       "type": "contribution",
-      "tags": ["design", "e-commerce", "programming", "usability", "UX"]
+      "tags": ["analytics", "design", "e-commerce", "programming", "usability/UX"]
     },
     {
       "date": "2011&ndash;2012",
@@ -63,7 +63,7 @@
       "name": "W3Touch",
       "link": "http://dev.globis.ethz.ch/w3touch/",
       "type": "contribution",
-      "tags": ["crowdsourcing", "research", "usability", "UX"]
+      "tags": ["programming", "research", "usability/UX"]
     },
     {
       "date": "2011",
@@ -71,7 +71,7 @@
       "name": "CrowdAdapt",
       "link": "http://dev.globis.ethz.ch/crowdadapt/",
       "type": "contribution",
-      "tags": ["crowdsourcing", "research", "usability", "UX"]
+      "tags": ["programming", "research", "usability/UX"]
     },
     {
       "date": "2011",
@@ -79,7 +79,7 @@
       "name": "CrowdStudy",
       "link": "http://dev.globis.ethz.ch/crowdstudy/",
       "type": "contribution",
-      "tags": ["crowdsourcing", "research", "usability", "UX"]
+      "tags": ["programming", "research", "usability/UX"]
     },
     {
       "date": "2009&ndash;2010",
