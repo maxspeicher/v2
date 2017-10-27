@@ -2,13 +2,14 @@
 
 @highlight: DeepPink;
 @secondary: gray;
-@standard: black;
 
 @tiny: 60%;
 
 /* TAGS */
 
 body {
+  background-color: @background;
+  color: @standard;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }
@@ -93,7 +94,7 @@ td {
 }
 
 .top-link {
-  background-color: white;
+  background-color: @background;
   border: 1px @standard solid;
   bottom: 10px;
   color: @standard;

@@ -1,7 +1,59 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Montserrat:200,300,400');
+a,
+.brtlyst-link {
+  color: black;
+  text-decoration: underline;
+}
+.brtlyst-secondary {
+  color: gray;
+}
+.brtlyst-gray {
+  color: DimGray;
+}
+.brtlyst-highlight {
+  color: DeepPink !important;
+}
+.brtlyst-icon {
+  border: 1px black solid;
+  color: black;
+  display: inline-block;
+  font-size: 60%;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
+a.brtlyst-icon:hover {
+  border: 1px DeepPink solid;
+  color: DeepPink;
+}
+.brtlyst-light {
+  font-weight: 300;
+  font-style: normal;
+}
+.brtlyst-link--highlighted {
+  color: DeepPink;
+  text-decoration: none;
+}
+.brtlyst-regular {
+  font-weight: 400;
+}
+.brtlyst-sc {
+  font-variant: small-caps;
+}
+.brtlyst-smaller {
+  font-size: 80%;
+}
+.brtlyst-standard {
+  color: black;
+}
+.brtlyst-thin {
+  font-weight: 200;
+  font-style: normal;
+}
 /* TAGS */
 body {
   background-color: white;
+  color: black;
   font-family: "Montserrat", sans-serif;
   font-size: 18px;
 }

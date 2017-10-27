@@ -30,7 +30,7 @@ function requireUncached($module) {
 }
 
 gulp.task("less", function() {
-  return gulp.src("css/*.less")
+  return gulp.src(["css/day.less", "css/night.less"])
     .pipe(less())
     .pipe(gulp.dest("css"));
 });
