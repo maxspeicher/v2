@@ -7,7 +7,7 @@
     {% endif %}
   </td>
   <td>
-    {{name}} <span class="brtlyst-light">{{ degree }}</span> <span class="brtlyst-light brtlyst-smaller">{{ subject }}</span><br />
+    {{degree}} <span class="brtlyst-light">{{ name }}</span> <span class="brtlyst-light brtlyst-smaller">{{ subject }} {% if note %}({{ note }}){% endif %}</span><br />
     {% for tag in tags %}
       <span class="brtlyst-secondary tag tag-{{ tag | replace("/", "-") | replace(" ", "-") }} tiny">#{{ tag }}</span>
     {% endfor %}
