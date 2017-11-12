@@ -6,7 +6,8 @@
       "date": "2017",
       "dateInt": 2017,
       "link": "https://uxdesign.cc/the-conversion-usability-framework-3e2068edebbc",
-      "title": "The Conversion/Usability Framework: How Usability Impacts Profit",
+      "title": "How Usability Impacts Profit: The Conversion/Usability Framework",
+      "in": "uxdesign.cc",
       "tags": ["business", "e-commerce", "usability/UX"]
     },
     {
@@ -14,6 +15,7 @@
       "dateInt": 2017,
       "link": "https://medium.com/startupsco/how-to-data-analytics-in-a-start-up-f801d0ccf5d2",
       "title": "How to Data Analytics (in a Start-up)",
+      "in": "Startups.co",
       "tags": ["analytics", "management", "startup", "usability/UX"]
     },
     {
@@ -21,6 +23,7 @@
       "dateInt": 2016,
       "link": "https://www.startups.co/articles/what-do-highly-successful-start-ups-have-in-common",
       "title": "What Do Highly Successful Start-ups Have in Common?",
+      "in": "Startups.co",
       "tags": ["analytics", "startup"]
     },
     {
@@ -28,13 +31,15 @@
       "dateInt": 2016,
       "link": "https://medium.theuxblog.com/on-design-thinking-4a4980aebe8d",
       "title": "On Design Thinking",
+      "in": "theuxblog.com",
       "tags": ["design", "research"]
     },
     {
       "date": "2016",
       "dateInt": 2016,
-      "link": "https://medium.com/@maxspeicher/lean-support-the-case-of-holobuilder-7bb74bdcf1f4",
-      "title": "Lean Support",
+      "link": "https://2008.maxspeicher.com/2016/04/25/lean-support-the-case-of-holobuilder/",
+      "title": "Lean Support: The Case of HoloBuilder",
+      "in": "Twenty Oh Eight",
       "tags": ["startup", "usability/UX"]
     },
     {
@@ -42,6 +47,7 @@
       "dateInt": 2014,
       "link": "https://2008.maxspeicher.com/2014/05/14/the-most-important-game-of-my-life/",
       "title": "The Most Important Game of my Life",
+      "in": "Twenty Oh Eight",
       "tags": ["leadership", "ringtennis"]
     }
   ]
