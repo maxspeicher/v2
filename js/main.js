@@ -1,14 +1,14 @@
 (function(window, document, $) {
 
-  let activeArrangement = "by-skill";
-  let activeSkill = "";
+  var activeArrangement = "by-skill";
+  var activeSkill = "";
 
   // DOM load
   $(function() {
 
     // highlight skills onmouseover
     $(".skills-skill").on("mouseover", function() {
-      const name = $(this).attr("name");
+      var name = $(this).attr("name");
       $(".tag-" + name).addClass("brtlyst-highlight");
     }).on("mouseout click", function() {
       if (!activeSkill) {
@@ -37,7 +37,7 @@
     $(".skills-skill").on("click", function(e) {
       e.preventDefault();
       
-      const name = $(this).attr("name");
+      var name = $(this).attr("name");
       
       $(".entry").removeClass("hidden");
       $(".skills-skill").removeClass("skills-skill--dehighlighted");
@@ -62,7 +62,7 @@
     $(".arrangement").on("click", function(e) {
       e.preventDefault();
       
-      const name = $(this).attr("name");
+      var name = $(this).attr("name");
       
       if (name === activeArrangement) {
         return;
