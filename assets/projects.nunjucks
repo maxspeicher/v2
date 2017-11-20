@@ -12,6 +12,9 @@
     {% else %}
       <span class="brtlyst-secondary brtlyst-light">{{ name | safe }}</span>
     {% endif %}
+    {% if latest %}
+      <span class="brtlyst-label">latest experiment</span>
+    {% endif %}
     <br />
     {% if type === "own" %}
       <span class="brtlyst-secondary tag tag-own tiny">#own</span>

@@ -6,10 +6,10 @@ const data = require("gulp-data");
 const less = require("gulp-less");
 const nunjucksRender = require("gulp-nunjucks-render");
 
-const CONTENT_FILES = ["articles", "projects", "work", "education", "honors", "publications"];
+const CONTENT_FILES = ["projects", "articles", "work", "education", "honors", "publications"];
 
 const SKILLS = ["design", "leadership", "management", "usability/UX", "startup", "e-commerce",
-                "AR/VR", "analytics", "computer science", "research", "ringtennis"];
+                "AR/VR", "machine learning", "analytics", "computer science", "research", "ringtennis"];
 
 function compare(a,b) {
   if (a.dateInt < b.dateInt)

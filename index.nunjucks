@@ -20,37 +20,38 @@
   <body>
     <section>
       <h1>Max<span class="brtlyst-gray">imilian</span> Speicher</h1>
+      <a href="https://www.github.com/maxspeicher" target="_blank" class="brtlyst-icon">Github</a>
       <a href="https://www.linkedin.com/in/maximilianspeicher/en" target="_blank" class="brtlyst-icon">LinkedIn</a>
       <a href="https://medium.com/@maxspeicher" target="_blank" class="brtlyst-icon">Medium</a>
       <a href="https://2008.maxspeicher.com/" target="_blank" class="brtlyst-icon">WordPress</a>
     </section>
     <section class="intro brtlyst-light">
-      As a <span class="brtlyst-regular">designer</span> &amp; <span class="brtlyst-regular">computer scientist</span>, I believe that any issue can be expressed as an interface problem &amp; tackled through appropriate human-centered methods.
+      As a <span class="brtlyst-regular">designer</span> &amp; <span class="brtlyst-regular">computer scientist</span>, I believe that any issue can be expressed as a usability problem &amp; tackled through appropriate human-centered methods.
       Therefore, to provide the next generation of enjoyable &amp; useful digital products, we need to thoroughly understand design &amp; development processes &amp; how they integrate with each other.
       <br /><br />
       <a class="link-show-more" href="#">Show more ...</a>
-      <div class="intro-more hidden">
+      <span class="intro-more hidden">
         The research projects I currently lead at the University of Michigan focus on natural user interfaces, especially augmented reality.
         Before, I helped grow HoloBuilder as their VP of Customer &amp; Data Analytics &amp; Optimization, being primarily responsible for data-driven UX.
         During my Industrial PhD at Unister GmbH, I created a human-centered methodology &amp; toolkit for providing more usable search engines.
         <br /><br />
         Also, I am the men's captain of the Germany national Ringtennis team.
         I <span class="brtlyst-highlight">&#x2764;</span> minimalism &amp; typography.
-      </div>
+      </span>
       <a id="top" name="top"></a>
     </section>
     <section class="skills">
       {% for skill in skills %}<a class="skills-skill brtlyst-link--highlighted" href="#" name="{{ skill | replace("/", "-") | replace(" ", "-") }}"><span class="brtlyst-thin">#</span>{{ skill }}</a>{% endfor %}
       <div class="space-10px"></div>
-      <a href="#" class="arrangement brtlyst-link--highlighted" name="by-category">
+      <a href="#" class="arrangement arrangement--dehighlighted brtlyst-link--highlighted" name="by-category">
         <span class="brtlyst-thin">arrange by</span> category
       </a><!--
-      --><a href="#" class="arrangement arrangement--dehighlighted brtlyst-link--highlighted" name="by-skill">
+      --><a href="#" class="arrangement brtlyst-link--highlighted" name="by-skill">
         <span class="brtlyst-thin">arrange by</span> skill
       </a>
     </section>
     <a id="content" name="content"></a>
-    <section id="by-category" class="container hidden">
+    <section id="by-category" class="container">
       {% for title, entries in content.categories %}
         <h2>{{ title }}</h2>
         <table border="0">
@@ -60,7 +61,7 @@
         </table>
       {% endfor %}
     </section>
-    <section id="by-skill" class="container">
+    <section id="by-skill" class="container hidden">
       {% for skill, entries in content.skills %}
         {% if entries.length > 0 %}
           <a id="{{ skill | replace("/", "-") | replace(" ", "-") }}" name="{{ skill | replace("/", "-") | replace(" ", "-") }}"></a>

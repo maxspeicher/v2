@@ -22,9 +22,24 @@ a,
   text-align: center;
   text-decoration: none;
 }
+.brtlyst-label {
+  color: black;
+  display: inline-block;
+  font-size: 60%;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+}
 a.brtlyst-icon:hover {
   border: 1px DeepPink solid;
   color: DeepPink;
+}
+.brtlyst-label {
+  background-color: DeepPink;
+  color: #FFFFFF;
+  display: inline-block;
+  font-size: 60%;
+  padding: 0 3px 0 2px;
 }
 .brtlyst-light {
   font-weight: 300;
@@ -94,11 +109,14 @@ td {
 .arrangement--dehighlighted {
   cursor: not-allowed;
 }
+.brtlyst-label {
+  color: white;
+}
 .hidden {
   display: none;
 }
 .intro {
-  max-width: 40em;
+  max-width: 45em;
 }
 .nowrap {
   white-space: nowrap;

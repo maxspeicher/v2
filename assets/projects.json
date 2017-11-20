@@ -5,6 +5,15 @@
     {
       "date": "2017",
       "dateInt": 2017,
+      "name": "Max Bot",
+      "link": "http://www.maxspeicher.com/chat/",
+      "type": "own",
+      "latest": true,
+      "tags": ["design", "programming"]
+    },
+    {
+      "date": "2017",
+      "dateInt": 2017,
       "name": "XD-AR",
       "link": "https://www.mi2lab.com/research/",
       "type": "contribution",
@@ -48,14 +57,14 @@
       "name": "Search Interaction Optimization: A Human-Centered Design Approach",
       "link": "/phdthesis",
       "type": "own",
-      "tags": ["analytics", "design", "e-commerce", "PhD", "research", "usability/UX"]
+      "tags": ["analytics", "design", "e-commerce", "machine learning", "PhD", "research", "usability/UX"]
     },
     {
       "date": "2012&ndash;2014",
       "dateInt": 2014,
       "name": "BlueKiwi",
       "type": "contribution",
-      "tags": ["analytics", "design", "e-commerce", "programming", "usability/UX"]
+      "tags": ["analytics", "design", "e-commerce", "machine learning", "programming", "usability/UX"]
     },
     {
       "date": "2011&ndash;2012",

@@ -1,6 +1,6 @@
 (function(window, document, $) {
 
-  var activeArrangement = "by-skill";
+  var activeArrangement = "by-category";
   var activeSkill = "";
 
   // DOM load
