@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>MaxSpeicher.github.io</title>
+    <title>Maximilian Speicher &bull; MaxSpeicher.com</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <link rel="shortcut icon" type="image/png" href="M.png"/>
@@ -10,7 +10,7 @@
     <script>
       const h = new Date().getHours();
 
-      if (h >= 8 && h < 20) {
+      if (h >= 6 && h < 18) {
         document.writeln('<link rel="stylesheet" href="css/day.css" />');
       } else {
         document.writeln('<link rel="stylesheet" href="css/night.css" />');
