@@ -34,7 +34,7 @@
       "dateInt": 2015,
       "link": "http://www.rintonpress.com/journals/jweonline.html#v14n56",
       "pdf": "http://www.rintonpress.com/xjwe14/jwe-14-56/386-413.pdf",
-      "tags": ["journal article", "JWE", "interaction", "machine learning", "search engine", "research"]
+      "tags": ["journal article", "JWE", "machine learning", "search engine", "research"]
     },
     {
       "type": "inproceedings",
@@ -91,7 +91,7 @@
       "coreRating": "B",
       "link": "http://link.springer.com/chapter/10.1007/978-3-319-08245-5_6",
       "pdf": "https://www.researchgate.net/publication/271269916",
-      "tags": ["full paper", "ICWE", "interaction", "machine learning", "usability/UX", "research"]
+      "tags": ["full paper", "ICWE", "machine learning", "usability/UX", "research"]
     },
     {
       "type": "inproceedings",
@@ -103,7 +103,7 @@
       "coreRating": "B",
       "link": "http://link.springer.com/chapter/10.1007/978-3-319-08245-5_16",
       "pdf": "https://www.researchgate.net/publication/263167518",
-      "tags": ["full paper", "ICWE", "interaction", "machine learning", "search engine", "research"]
+      "tags": ["full paper", "ICWE", "machine learning", "search engine", "research"]
     },
     {
       "type": "inproceedings",
@@ -114,7 +114,7 @@
       "coreRating": "B",
       "link": "http://link.springer.com/chapter/10.1007/978-3-319-08245-5_47",
       "pdf": "https://www.researchgate.net/publication/271269917",
-      "tags": ["demo", "ICWE", "interaction", "machine learning", "usability/UX", "research"]
+      "tags": ["demo", "ICWE", "machine learning", "usability/UX", "research"]
     },
     {
       "type": "inproceedings",
@@ -126,7 +126,7 @@
       "coreRating": "A",
       "link": "http://dl.acm.org/citation.cfm?id=2505703",
       "pdf": "https://www.researchgate.net/publication/262312351",
-      "tags": ["full paper", "CIKM", "interaction", "machine learning", "search engine", "research"]
+      "tags": ["full paper", "CIKM", "machine learning", "search engine", "research"]
     },
     {
       "type": "inproceedings",
