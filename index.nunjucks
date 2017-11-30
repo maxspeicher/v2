@@ -66,7 +66,7 @@
     <section id="by-skill" class="container hidden">
       {% for skill, entries in content.skills %}
         {% if entries.length > 0 %}
-          <a id="{{ skill | replace("/", "-") | replace(" ", "-") }}" name="{{ skill | replace("/", "-") | replace(" ", "-") }}"></a>
+          <a class="anchor" id="{{ skill | replace("/", "-") | replace(" ", "-") }}" name="{{ skill | replace("/", "-") | replace(" ", "-") }}"></a>
           <h2>#{{ skill }}</h2>
           <table border="0">
             {% for entry in entries %}

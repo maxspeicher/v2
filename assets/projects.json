@@ -15,9 +15,10 @@
       "date": "2017",
       "dateInt": 2017,
       "name": "XD-AR",
+      "company": "University of Michigan",
       "link": "https://www.mi2lab.com/research/",
       "type": "contribution",
-      "tags": ["AR/VR", "research"]
+      "tags": ["AR/VR", "leadership", "management", "research"]
     },
     {
       "date": "2013&ndash;2017",
@@ -39,9 +40,10 @@
       "date": "2015&ndash;2017",
       "dateInt": 2017,
       "name": "HoloBuilder",
+      "company": "bitstars GmbH",
       "link": "https://www.holobuilder.com/",
       "type": "contribution",
-      "tags": ["analytics", "AR/VR", "design", "e-commerce", "programming", "startup", "usability/UX"]
+      "tags": ["analytics", "AR/VR", "design", "e-commerce", "leadership", "management", "startup", "usability/UX"]
     },
     {
       "date": "since 2014",
@@ -63,6 +65,7 @@
       "date": "2012&ndash;2014",
       "dateInt": 2014,
       "name": "BlueKiwi",
+      "company": "Unister GmbH",
       "type": "contribution",
       "tags": ["analytics", "design", "e-commerce", "machine learning", "programming", "usability/UX"]
     },
@@ -70,6 +73,7 @@
       "date": "2011&ndash;2012",
       "dateInt": 2012,
       "name": "W3Touch",
+      "company": "ETH Zurich",
       "link": "http://dev.globis.ethz.ch/w3touch/",
       "type": "contribution",
       "tags": ["programming", "research", "usability/UX"]
@@ -78,6 +82,7 @@
       "date": "2011",
       "dateInt": 2011,
       "name": "CrowdAdapt",
+      "company": "ETH Zurich",
       "link": "http://dev.globis.ethz.ch/crowdadapt/",
       "type": "contribution",
       "tags": ["programming", "research", "usability/UX"]
@@ -86,6 +91,7 @@
       "date": "2011",
       "dateInt": 2011,
       "name": "CrowdStudy",
+      "company": "ETH Zurich",
       "link": "http://dev.globis.ethz.ch/crowdstudy/",
       "type": "contribution",
       "tags": ["programming", "research", "usability/UX"]
@@ -94,6 +100,7 @@
       "date": "2009&ndash;2010",
       "dateInt": 2010,
       "name": "SoftwareKaufen.de",
+      "company": "GFIU mbH",
       "type": "contribution",
       "tags": ["design", "programming", "writing"]
     },

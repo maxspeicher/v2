@@ -7,25 +7,27 @@
   $(function() {
 
     // highlight skills onmouseover
-    $(".skills-skill").on("mouseover", function() {
+    $("body").on("mouseover", ".skills-skill", function() {
       var name = $(this).attr("name");
       $(".tag-" + name).addClass("brtlyst-highlight");
-    }).on("mouseout click", function() {
+    }).on("mouseout click", ".skills-skill", function() {
       if (!activeSkill) {
         $(".tag").removeClass("brtlyst-highlight");
+      } else {
+        $(".tag:not(.tag-" + activeSkill + ")").removeClass("brtlyst-highlight");
       }
     });
     
     // highlight possibilities for arrangement
-    $("[name='by-category']").on("mouseover", function() {
+    $("body").on("mouseover", "[name='by-category']", function() {
       $(".category").addClass("brtlyst-highlight");
-    }).on("mouseout click", function() {
+    }).on("mouseout click", "[name='by-category']", function() {
       $(".category").removeClass("brtlyst-highlight");
     });
     
-    $("[name='by-skill']").on("mouseover", function() {
+    $("body").on("mouseover", "[name='by-skill']", function() {
       $(".tag").addClass("brtlyst-highlight");
-    }).on("mouseout click", function() {
+    }).on("mouseout click", "[name='by-skill']", function() {
       $(".tag").removeClass("brtlyst-highlight");
 
       if (activeSkill) {
@@ -34,7 +36,7 @@
     });
       
     // filter by skill
-    $(".skills-skill").on("click", function(e) {
+    $("body").on("click", ".skills-skill", function(e) {
       e.preventDefault();
       
       var name = $(this).attr("name");
@@ -59,7 +61,7 @@
     });
     
     // arrange by category/skill
-    $(".arrangement").on("click", function(e) {
+    $("body").on("click", ".arrangement", function(e) {
       e.preventDefault();
       
       var name = $(this).attr("name");
@@ -72,7 +74,7 @@
       $(".container:not(#" + name + ")").addClass("hidden");
       
       $(".arrangement").removeClass("arrangement--dehighlighted");
-      $(this).addClass("arrangement--dehighlighted");
+      $("[name='" + name + "']").addClass("arrangement--dehighlighted");
       
       activeArrangement = name;
     });
@@ -90,6 +92,39 @@
       $(".intro-more").removeClass("hidden");
       $(".link-show-more").addClass("hidden");
     });
+
+    /* Sticky skills
+
+    var lastScroll = 0;
+    var skillsHeight = $(".skills").height();
+    var skillsOffset = $(".skills").offset();
+
+    $(".skills").clone().addClass("skills-sticky hidden").appendTo("body");
+
+    window.setInterval(function() {
+      var currentScroll = $(window).scrollTop();
+
+      if (currentScroll === lastScroll) {
+        return;
+      }
+
+      if (currentScroll > skillsOffset.top + skillsHeight) {
+        $(".skills-sticky").removeClass("hidden");
+        $(".anchor").css({
+          position: "relative",
+          top: -$(".skills-sticky").height()
+        });
+      } else {
+        $(".skills-sticky").addClass("hidden");
+        $(".anchor").css({
+          top: 0
+        });
+      }
+
+      lastScroll = currentScroll;
+    }, 1);
+
+    */
 
   });
 
