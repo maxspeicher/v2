@@ -5,6 +5,14 @@
     {
       "date": "2017",
       "dateInt": 2017,
+      "link": "https://2008.maxspeicher.com/2017/12/02/the-design-philosophy-behind-my-new-website/",
+      "title": "The Design Philosophy Behind My New Website",
+      "in": "Twenty Oh Eight",
+      "tags": ["design", "usability/UX"]
+    },
+    {
+      "date": "2017",
+      "dateInt": 2017,
       "link": "https://medium.muz.li/what-is-design-thinking-4afa067cb986",
       "title": "What is Design Thinking?",
       "in": "Muzli",
