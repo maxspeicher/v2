@@ -157,6 +157,7 @@ paper-ripple {
     position: fixed;
     top: 1em;
     left: 1em;
+    z-index: 999;
 }
 
 #back a:hover {

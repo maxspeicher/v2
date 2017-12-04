@@ -30,16 +30,6 @@
       Slow loading times due to experiments with <a href="https://www.polymer-project.org/1.0/">Polymer</a>.
       Please excuse!
     </div>
-    <script>
-      $("#loading-msg").on("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", function() {
-        $(this).css("visibility", "hidden");
-      });
-
-      $(function() {
-        $(".fa-cog, .fa-arrow-left").toggleClass("hide");
-        $("#loading-msg").css("opacity", 0);
-      });
-    </script>
   </div>
 
   <div id="main">
@@ -185,6 +175,13 @@
         window.ga("send", "event", "link", "click", $(this).attr('href'));
       }
     });
+
+    // $("#loading-msg").on("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", function() {
+    //   $(this).css("visibility", "hidden");
+    // });
+
+    // $(".fa-cog, .fa-arrow-left").toggleClass("hide");
+    // $("#loading-msg").css("opacity", 0);
   </script>
 
 </body>

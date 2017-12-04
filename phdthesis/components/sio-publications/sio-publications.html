@@ -2,8 +2,8 @@
 
 <polymer-element name="sio-publications">
   <template>
-    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" noshim />
-    <style no-shim>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" />
+    <style>
       a {
         color: #2980b9;
         text-decoration: none;
@@ -31,7 +31,7 @@
       <template repeat="{{p in publications}}">
         <li>
           {{p.authors}} ({{p.year}}). <q>{{p.title}}</q>. In: <em>{{p.booktitle}}</em>.
-          <a href="{{p.link}}"><i class="fa fa-file-o"></i></a>
+          <a class="" href="{{p.link}}"><i class="fa fa-file-o"></i></a>
         </li>
       </template>
     </ol>
@@ -133,5 +133,13 @@
         }
       ]
     });
+
+    // last Polymer component has been loaded -> remove loading msg
+    $("#loading-msg").on("webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend", function() {
+      $(this).css("visibility", "hidden");
+    });
+
+    $(".fa-cog, .fa-arrow-left").toggleClass("hide");
+    $("#loading-msg").css("opacity", 0);
   </script>
 </polymer-element>
