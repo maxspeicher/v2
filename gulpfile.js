@@ -8,8 +8,8 @@ const nunjucksRender = require("gulp-nunjucks-render");
 
 const CONTENT_FILES = ["projects", "articles", "work", "education", "honors", "publications"];
 
-const SKILLS = ["design", "management", "leadership", "usability/UX", "startup", "e-commerce",
-                "AR/VR", "machine learning", "analytics", "computer science", "research", "ringtennis"];
+const SKILLS = ["management", "leadership", "computer science", "design", "usability/UX", "analytics", "machine learning", "AR/VR",
+                "startup", "e-commerce", "research", "ringtennis"];
 
 function compare(a,b) {
   if (a.dateInt < b.dateInt)
