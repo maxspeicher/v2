@@ -7,14 +7,14 @@
       "dateInt": 9999,
       "company": "University of Michigan",
       "title": "Research Fellow",
-      "tags": ["AR/VR", "design", "leadership", "management", "research"]
+      "tags": ["AR/VR", "design", "management", "research"]
     },
     {
       "date": "2015&ndash;2017",
       "dateInt": 2017,
       "company": "bitstars GmbH",
       "title": "VP of Customer & Data Analytics & Optimization",
-      "tags": ["AR/VR", "analytics", "design", "e-commerce", "leadership", "management", "startup", "usability/UX"]
+      "tags": ["AR/VR", "analytics", "design", "e-commerce", "management", "startup", "usability/UX"]
     },
     {
       "date": "2013&ndash;2014",
@@ -44,101 +44,5 @@
       "title": "Student Assistant",
       "tags": ["e-commerce", "programming", "SEO"]
     }
-  ],
-  "education": [
-    {
-      "date": "2013&ndash;2016",
-      "name": "Chemnitz University of Technology",
-      "degree": "Dr.-Ing.",
-      "subject": "Computer Science",
-      "graduated": true
-    },
-    {
-      "date": "2012&ndash;2013",
-      "name": "University of Central Lancashire",
-      "degree": "Certificates",
-      "subject": "Astronomy/Cosmology",
-      "graduated": true
-    },
-    {
-      "date": "2011",
-      "name": "Business Tools AG",
-      "subject": "Project Management Course (6 <span title='Professional Development Units' class='tooltip'>PDUs</span>, Category 4)",
-      "graduated": true
-    },
-    {
-      "date": "2010&ndash;2012",
-      "name": "ETH Zurich",
-      "degree": "M.Sc.",
-      "subject": "Computer Science",
-      "graduated": true
-    },
-    {
-      "date": "2008&ndash;2010",
-      "name": "RWTH Aachen University",
-      "degree": "B.Sc.",
-      "subject": "Computer Science (minor in Business Administration)",
-      "graduated": true
-    }
-  ],
-  "skills": [
-    {
-      "name": "HCI",
-      "level": 3
-    },
-    {
-      "name": "Web Engineering",
-      "level": 3
-    },
-    {
-      "name": "CSS",
-      "level": 3
-    },
-    {
-      "name": "HTML",
-      "level": 3
-    },
-    {
-      "name": "Java",
-      "level": 3
-    },
-    {
-      "name": "JavaScript",
-      "level": 3
-    },
-    {
-      "name": "jQuery",
-      "level": 3
-    },
-    {
-      "name": "XML",
-      "level": 3
-    },
-    {
-      "name": "MySQL",
-      "level": 2
-    },
-    {
-      "name": "node.js",
-      "level": 2
-    },
-    {
-      "name": "PHP",
-      "level": 2
-    }
-  ],
-  "hobbies": [
-    "Astronomy",
-    "Cinema",
-    "Cosmology",
-    "Design",
-    "Literature",
-    "Music (Drums)",
-    "Poetry",
-    "Ringtennis",
-    "Table Football",
-    "Travel",
-    "Web Technologies",
-    "Writing"
   ]
 }
