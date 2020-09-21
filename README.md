@@ -1,3 +1,3 @@
-# maxspeicher.github.io
+# v2
 
-:arrow_right: http://www.maxspeicher.com/
+The second, pretty brutalist version of MaxSpeicher.com, created in 2017.
